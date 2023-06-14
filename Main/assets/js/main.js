@@ -176,7 +176,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "10",
             "caleories": "260 - 365 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/Aerated-Drinks.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://i0.wp.com/kitchenflavours.net/wp-content/uploads/2018/01/DSC_1459.jpg?fit=666%2C444&ssl=1" } } }
         }
     },
     {
