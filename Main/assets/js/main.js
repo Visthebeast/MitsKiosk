@@ -182,11 +182,11 @@ var newMenu = [
     {
         "sys": { "id": "19" },
         "fields": {
-            "title": "Cold Coffee",
-            "category": "Beverages",
+            "title": "Mojito",
+            "category": "Drinks",
             "price": "35",
             "caleories": "255 - 360 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/cold-coffee.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.liquor.com/thmb/MJRVqf-itJGY90nwUOYGXnyG-HA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mojito-720x720-primary-6a57f80e200c412e9a77a1687f312ff7.jpg" } } }
         }
     },
     {
