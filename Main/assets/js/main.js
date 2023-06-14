@@ -166,7 +166,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "230 - 280 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/hot-coffee.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2022/7/PR/JT/JJ/145631512/3f4636bf77a4d129bb8b0279f07dabdc.jpg" } } }
         }
     },
     {
@@ -182,83 +182,173 @@ var newMenu = [
     {
         "sys": { "id": "19" },
         "fields": {
-            "title": "Mojito",
-            "category": "Drinks",
+            "title": "Cold Coffee",
+            "category": "Beverages",
             "price": "35",
             "caleories": "255 - 360 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.liquor.com/thmb/MJRVqf-itJGY90nwUOYGXnyG-HA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mojito-720x720-primary-6a57f80e200c412e9a77a1687f312ff7.jpg" } } }
+            "image": { "fields": {"file": { "url": "assets/images/cold-coffee.jpg" } } }
         }
     },
     {
         "sys": { "id": "20" },
         "fields": {
-            "title": "Coffee",
-            "category": "Beverages",
+            "title": "Mojito",
+            "category": "Drinks",
             "price": "15",
             "caleories": "220 - 265 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/coffee.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://agratefulmeal.com/wp-content/uploads/2023/02/blue-mojito-curacao-cocktail-featured.jpg" } } }
         }
     },
     {
         "sys": { "id": "21" },
         "fields": {
-            "title": "Tea",
-            "category": "Beverages",
+            "title": "Oreo Shake",
+            "category": "Drinks",
             "price": "10",
             "caleories": "155 - 225 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/tea.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.whiskaffair.com/wp-content/uploads/2020/07/Oreo-Milkshake-2-3.jpg" } } }
         }
     },
     {
         "sys": { "id": "22" },
         "fields": {
-            "title": "Chocate Frappe",
-            "category": "Beverages",
+            "title": "Limca",
+            "category": "Drinks",
             "price": "35",
             "caleories": "265 - 355 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/beverage.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2023/1/JE/ME/VN/69519039/1-25l-limca-carbonated-drinks.jpg" } } }
         }
     },
     {
         "sys": { "id": "23" },
         "fields": {
-            "title": "Veg Puff",
-            "category": "Bakery",
+            "title": "Tea",
+            "category": "Drinks",
             "price": "35",
             "caleories": "260 - 320 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/puff.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.teaforturmeric.com/wp-content/uploads/2021/11/Masala-Chai-Tea-Recipe-Card.jpg" } } }
         }
     },
     {
         "sys": { "id": "24" },
         "fields": {
-            "title": "Panner Puff",
-            "category": "Bakery",
+            "title": "Coffee",
+            "category": "Drinks",
             "price": "15",
             "caleories": "255 - 390 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/samosa.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://post.healthline.com/wp-content/uploads/2020/08/AN275-cup-of-coffee-732x549-Thumb_0.jpg" } } }
         }
     },
     {
         "sys": { "id": "25" },
         "fields": {
-            "title": "Khari",
-            "category": "Bakery",
+            "title": "Cornetto",
+            "category": "Ice-cream",
             "price": "20",
             "caleories": "265 - 375 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/panner-puff.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/1001742216/photo/ice-cream-cornetto-ice-cream-waffle-cone-vanilla-and-chocolate-on-rustic-background.jpg?s=170667a&w=0&k=20&c=zNM7zw8WwxASazT8fYqmP7g7f4Cg_0tfME-F9_fJPf8=" } } }
         }
     },
     {
         "sys": { "id": "26" },
         "fields": {
-            "title": "Noodle Puff",
-            "category": "Bakery",
+            "title": "Sip-Up",
+            "category": "Drinks",
             "price": "15",
             "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/noodle-puff.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://cdn.cocoshoppy.com/products/sip-up-new_1625461909656.jpg" } } }
         }
-    }
+    },
+    {
+        "sys": { "id": "27" },
+        "fields": {
+            "title": "Spiced Chicken",
+            "category": "Cup Noodles",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40052970_5-nissin-cup-noodles-spiced-chicken.jpg" } } }
+        }
+    },
+     {
+        "sys": { "id": "28" },
+        "fields": {
+            "title": "Mazedaar Masala",
+            "category": "Cup Noodles",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://www.mymadrasmart.com/wp-content/uploads/2021/03/nisson.jpg" } } }
+        }
+    },
+     {
+        "sys": { "id": "29" },
+        "fields": {
+            "title": "Sea Food",
+            "category": "Cup Noodles",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40118708_2-nissin-cup-noodles-seafood.jpg" } } }
+        }
+    },
+     {
+        "sys": { "id": "30" },
+        "fields": {
+            "title": "Veggi Manchow",
+            "category": "Cup Noodles",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/89127a.jpg?ts=1666162445" } } }
+        }
+    },
+     {
+        "sys": { "id": "31" },
+        "fields": {
+            "title": "Mulak",
+            "category": "Bhajji",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/JMkx1PNjwOE/maxresdefault.jpg" } } }
+        }
+    },
+     {
+        "sys": { "id": "32" },
+        "fields": {
+            "title": "Motta",
+            "category": "Bhajji",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/EwLWOnwAr0g/maxresdefault.jpg" } } }
+        }
+    },
+     {
+        "sys": { "id": "33" },
+        "fields": {
+            "title": "Ulli",
+            "category": "Bhajji",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-vI--sdfKefA/X95j26rZ5bI/AAAAAAAAqOo/E0n5NnTZaSsdqxHlwyz3xxFFJuFwpPrLwCLcBGAsYHQ/w1200-h630-p-k-no-nu/1-20201219_130631.jpg" } } }
+        }
+    },
+     {
+        "sys": { "id": "34" },
+        "fields": {
+            "title": "Cauliflower",
+            "category": "Bhajji",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/NLpjxrDYuWo/maxresdefault.jpg" } } }
+        }
+    },
+    {
+        "sys": { "id": "35" },
+        "fields": {
+            "title": "French Fries",
+            "category": "Bhajji",
+            "price": "15",
+            "caleories": "300 - 425 Kcal",
+            "image": { "fields": {"file": { "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG" } } }
+        }
+    },
 ]
 
 // Menu Section -
