@@ -2,168 +2,168 @@ var newMenu = [
     {
         "sys": { "id": "1" },
         "fields": {
-            "title": "Double Cheese Potato Burger",
-            "category": "Burger",
+            "title": "Chicken Sandwich",
+            "category": "Sandwich",
             "price": "45",
             "caleories": "220 - 280 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/burger.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://vaya.in/recipes/wp-content/uploads/2018/06/Grilled-Chicken-Sandwich.jpg" } } }
         }
     },
     {
         "sys": { "id": "2" },
         "fields": {
-            "title": "Cheese Sandwitch",
-            "category": "Sandwitch",
+            "title": "Veg Sandwich",
+            "category": "Sandwich",
             "price": "45",
             "caleories": "250 - 300 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/sandwich1.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://subwayaruba.com/wp-content/uploads/2019/05/sub6-veggie-delite.jpg" } } }
         }
     },
     {
         "sys": { "id": "3" },
         "fields": {
-            "title": "Veg Club Sandwitch",
-            "category": "Sandwitch",
+            "title": "Veg Cutlet ",
+            "category": "Cutlet",
             "price": "60",
             "caleories": "320 - 400 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/s2.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.cookwithmanali.com/wp-content/uploads/2021/04/Veg-Cutlet.jpg" } } }
         }
     },
     {
         "sys": { "id": "4" },
         "fields": {
-            "title": "Cheese Masala Sandwitch",
-            "category": "Sandwitch",
+            "title": "Chicken Cutlet",
+            "category": "Cutlet",
             "price": "45",
             "caleories": "250 - 300 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/sandwich2.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://cdn3.foodviva.com/static-content/food-images/snacks-recipes/vegetable-cutlet-recipe/vegetable-cutlet-recipe.jpg" } } }
         }
     },
     {
         "sys": { "id": "5" },
         "fields": {
-            "title": "Veg Schezuan Sandwitch",
-            "category": "Sandwitch",
+            "title": "Meat Roll",
+            "category": "Roll",
             "price": "45",
             "caleories": "230 - 285 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/schez-sandwitch.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-7dPIbobpVxw/YQFZM1ccJwI/AAAAAAAATlI/oNIXqCuxChMmyfgYnB84Nqlg7JNQ6BDOwCLcBGAsYHQ/s800/IMG_2214.JPG" } } }
         }
     },
     {
         "sys": { "id": "6" },
         "fields": {
-            "title": "Masala Maggie",
-            "category": "Maggie",
+            "title": "Samosa",
+            "category": "Samosa",
             "price": "25",
             "caleories": "150 - 280 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/maggie.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://dwellbymichelle.com/wp-content/uploads/2021/03/DWELL-Samosa-Recipe.jpeg" } } }
         }
     },
     {
         "sys": { "id": "7" },
         "fields": {
-            "title": "Schezuan Maggie",
-            "category": "Maggie",
+            "title": "Banana fry ",
+            "category": "Banana fry",
             "price": "30",
             "caleories": "165 - 225 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/maggie-s.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://static.toiimg.com/thumb/93738582.cms?width=1200&height=900" } } }
         }
     },
     {
         "sys": { "id": "8" },
         "fields": {
-            "title": "Veg Maggie",
-            "category": "Maggie",
+            "title": "Chicken Puffs",
+            "category": "Puffs",
             "price": "30",
             "caleories": "170 - 220 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/veg-maggie.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://littlespicejar.com/wp-content/uploads/2014/02/Chicken-Puff-Pastry-Chicken-Patties-18-540x720.jpg" } } }
         }
     },
     {
         "sys": { "id": "9" },
         "fields": {
-            "title": "Cheese Garlic Maggie",
-            "category": "Maggie",
+            "title": "Egg Puffs",
+            "category": "Puffs",
             "price": "40",
             "caleories": "190 - 230 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/garlic-maggie.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://thegoldenlamb.com/wp-content/uploads/2021/09/egg-puff-recipe-indian-main.jpg" } } }
         }
     },
     {
         "sys": { "id": "10" },
         "fields": {
-            "title": "Cheese Veg Maggie",
-            "category": "Maggie",
+            "title": "Bread fry",
+            "category": "Bread",
             "price": "45",
             "caleories": "175 - 235 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/cheese-maggie.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://villagecookingkerala.com/wp-content/uploads/2021/01/jgjjjgjgj-678x381.jpg" } } }
         }
     },
     {
         "sys": { "id": "11" },
         "fields": {
-            "title": "Masala Fries",
-            "category": "Fries",
+            "title": "Smoodh",
+            "category": "Drinks",
             "price": "35",
             "caleories": "120 - 185 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/frenchfries.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://gumlet.assettype.com/foodtechbiz%2F2021-06%2F14ee0fde-adbc-4d9e-9125-60fc593b0de0%2F1624261283053.jpg?rect=0%2C7%2C1080%2C608&w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true" } } }
         }
     },
     {
         "sys": { "id": "12" },
         "fields": {
-            "title": "Schezuan Fries",
-            "category": "Fries",
+            "title": "Maa Juice",
+            "category": "Drinks",
             "price": "45",
             "caleories": "135 - 210 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/shezuan.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.luluhypermarket.in/medias/29216-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTU0MTJ8aW1hZ2UvanBlZ3xhRFZrTDJnNVppODRPRGN5TlRRNE9ESTNNVFkyTHpJNU1qRTJMVEF4TG1wd1oxOHhNakF3VjNneE1qQXdTQXwwYmYyZGQ1YmZjYzAxMjJmY2I1MzM0NzEwMjZmMzI1OThkNDVhYjgzMTQ1ZjMxZWQzMTZhZGFmMzNkOWFjNmFj" } } }
         }
     },
     {
         "sys": { "id": "13" },
         "fields": {
-            "title": "Cheese Fries",
-            "category": "Fries",
+            "title": "Coca Cola",
+            "category": "Drinks",
             "price": "40",
             "caleories": "140 - 156 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/cheese-fries.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://i.guim.co.uk/img/media/d13a335be378fd1d5360d34a88faefe2b6e38ca9/0_156_3500_2100/master/3500.jpg?width=700&quality=85&auto=format&fit=max&s=092c5fc37ff9a1f56faae91550b1d035" } } }
         }
     },
     {
         "sys": { "id": "14" },
         "fields": {
-            "title": "Red Sause Pasta",
-            "category": "Pasta",
+            "title": "Appy Fizz",
+            "category": "Drinks",
             "price": "80",
             "caleories": "241 - 321 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/pasta.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/0101/2364/0896/products/IMG_9013_78bbfa5f-f257-402d-aab7-767b09c9d4dc_600x600_crop_center.jpg?v=1674192376" } } }
         }
     },
     {
         "sys": { "id": "15" },
         "fields": {
-            "title": "White Sause Pasta",
-            "category": "Pasta",
+            "title": "Sprite",
+            "category": "Drinks",
             "price": "80",
             "caleories": "265 - 321 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/white-pasta.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://ucarecdn.com/65a5c249-0a78-43dd-b035-238311381538/-/crop/1581x888/0,30/-/preview/" } } }
         }
     },
     {
         "sys": { "id": "16" },
         "fields": {
-            "title": "Milk Shakes",
-            "category": "Beverages",
+            "title": "Monster",
+            "category": "Drinks",
             "price": "35",
             "caleories": "155 - 210 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/milk-shake.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.cantechonline.com/wp-content/uploads/Monster-Energy-drink-shutterstock_1145314877.jpg" } } }
         }
     },
     {
         "sys": { "id": "17" },
         "fields": {
-            "title": "Hot Chocolate",
-            "category": "Beverages",
+            "title": "Predator",
+            "category": "Drinks",
             "price": "35",
             "caleories": "230 - 280 Kcal",
             "image": { "fields": {"file": { "url": "assets/images/hot-coffee.jpg" } } }
@@ -494,7 +494,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
                 if (item.FoodID === id && item.Quantity >= 1){
                     item.Quantity -= 1;
                     if (item.Quantity === 0){
-                        if ( window.location != 'user-orders.html'){
+                        if ( window.location != 'https://mit-canteen.netlify.app/user-orders.html'){
                             // Enable Buttons - so user can use them again
                             // Enable removed items btn
                             addToCartBtn[item.FoodID-1].disabled = false;
@@ -530,7 +530,7 @@ function clearUserCart(addItem, addToCartBtn, trimedEmailID){
     cartItemsContainer.innerHTML = '';
     cartValues.forEach(values => { values.innerHTML = '0';})
     cartTotal.innerHTML = '0';
-    if ( window.location != 'user-orders.html'){
+    if ( window.location != 'https://mit-canteen.netlify.app/user-orders.html'){
         // Enable removed items btn
         addItem.forEach(item=>{
             addToCartBtn[item.FoodID-1].disabled = false;
@@ -608,7 +608,7 @@ function ClientDataFlow(addToCartBtn){
                         // Store previouly added items to array -
                         addItem.push(userCart[i])
                         // Disable already added items
-                        if (window.location != 'user-orders.html'){
+                        if (window.location != 'https://mit-canteen.netlify.app/user-orders.html'){
                             addToCartBtn[userCart[i].FoodID-1].disabled = true;
                             addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart';
                         }
@@ -652,7 +652,7 @@ function ClientDataFlow(addToCartBtn){
                         title: 'Order Successfully Recorded',
                     });
                     window.setTimeout(function(){
-                        window.location.replace('user-orders.html')
+                        window.location.replace('https://mit-canteen.netlify.app/user-orders.html')
                     }, 2600)
                 } else {
                     Swal.fire({
@@ -663,7 +663,7 @@ function ClientDataFlow(addToCartBtn){
             })
 
             // Shows Orders
-            if (window.location.href === 'user-orders.html'){
+            if (window.location.href === 'https://mit-canteen.netlify.app/user-orders.html'){
                 setOrderDetails(trimedEmailID)
             }
         } else {
