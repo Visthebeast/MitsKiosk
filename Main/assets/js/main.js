@@ -172,8 +172,8 @@ var newMenu = [
     {
         "sys": { "id": "18" },
         "fields": {
-            "title": "Aerated Drinks",
-            "category": "Beverages",
+            "title": "Cavins",
+            "category": "Drinks",
             "price": "10",
             "caleories": "260 - 365 Kcal",
             "image": { "fields": {"file": { "url": "assets/images/Aerated-Drinks.jpg" } } }
