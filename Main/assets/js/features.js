@@ -165,7 +165,11 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
+<<<<<<< Updated upstream
             <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-green md">Kiosk</span></div>
+=======
+            <div class="md">Welcome to <br><span class="clr-red md">Mits</span> <span class="clr-white md">Canteen</span></div>
+>>>>>>> Stashed changes
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
         <!-- Other way of LogIn's -->
@@ -259,7 +263,12 @@ function customerFooterUI() {
                         <h1 class="sm">about</h1>
                         <p>Muthoot Institute of Technology and Science
                         Varikoli P.O, Puthencruz- 682308
+<<<<<<< Updated upstream
                         PH: 0484-2732111/100</p>
+=======
+                        PH: 0484-2732111/100
+                        </p>
+>>>>>>> Stashed changes
                         <ul class="py-1">
                             <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official?mibextid=ZbWKwL" target="_blank"> Facebook</a></li>
                             <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
@@ -272,7 +281,7 @@ function customerFooterUI() {
                             <li><a href="index.html">Canteen Home</a></li>
                             <li><a href="our-vision.html">Our Vision</a></li>
                             <li><a href="https://github.com/rvutd/mit-canteen-site" target="_blank">Git Repository</a></li>
-                            <li><a href="https://mitindore.co.in/" target="_blank">MIT Indore</a></li>
+                            <li><a href="https://mgmits.ac.in/" target="_blank">MITS</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
@@ -280,7 +289,11 @@ function customerFooterUI() {
                         <ul>
                             <h1 class="sm">Contact Information</h1>
                             <li> <i class="fas fa-phone-alt"></i> <p>0484-2732111</p></li>
+<<<<<<< Updated upstream
                             <li> <i class="fas fa-envelope"></i> <p>mgmits.ac.in</p></li>
+=======
+                            <li> <i class="fas fa-envelope"></i> <p>info@mgits.ac.in</p></li>
+>>>>>>> Stashed changes
                             <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
                             <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in</p></li>
                         </ul>
@@ -308,7 +321,12 @@ function userFooterUI() {
                         <h1 class="sm">about</h1>
                         <p>Muthoot Institute of Technology and Science
                         Varikoli P.O, Puthencruz- 682308
+<<<<<<< Updated upstream
                         PH: 0484-2732111/100</p>
+=======
+                        PH: 0484-2732111/100
+                        </p>
+>>>>>>> Stashed changes
                         <ul class="py-1">
                             <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official?mibextid=ZbWKwL" target="_blank"> Facebook</a></li>
                             <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
@@ -321,7 +339,7 @@ function userFooterUI() {
                             <li><a href="client-side.html">Menu</a></li>
                             <li><a href="user-orders.html">Your Orders</a></li>
                             <li><a href="https://github.com/rvutd/mit-canteen-site" target="_blank">Git Repository</a></li>
-                            <li><a href="https://mitindore.co.in/" target="_blank">MIT Indore</a></li>
+                            <li><a href="https://mgmits.ac.in/" target="_blank">MITS</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
@@ -329,9 +347,15 @@ function userFooterUI() {
                         <ul>
                             <h1 class="sm">Contact Information</h1>
                             <li> <i class="fas fa-phone-alt"></i> <p>0484-2732111</p></li>
+<<<<<<< Updated upstream
                             <li> <i class="fas fa-envelope"></i> <p>mgmits.ac.in</p></li>
                             <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
                             <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in                                                                     </p></li>
+=======
+                            <li> <i class="fas fa-envelope"></i> <p>info@mgits.ac.in</p></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
+                            <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in</p></li>
+>>>>>>> Stashed changes
                         </ul>
                     </article>
                 </main>
