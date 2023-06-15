@@ -2,11 +2,11 @@ var newMenu = [
     {
         "sys": { "id": "1" },
         "fields": {
-            "title": "Chicken Sandwich",
-            "category": "Sandwich",
-            "price": "45",
+            "title": "Notebooks",
+            "category": "Stationery",
+            "price": "40",
             "caleories": "220 - 280 Kcal",
-            "image": { "fields": {"file": { "url": "https://vaya.in/recipes/wp-content/uploads/2018/06/Grilled-Chicken-Sandwich.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/1192/7528/collections/papergrid.jpg?v=1625385205" } } }
         }
     },
     {
