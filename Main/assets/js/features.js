@@ -6,7 +6,7 @@ if (previewNavbar) {
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
-                    <a href="index.html"><h1><span class="clr-red">Mit</span> <span class="clr-green">Canteen</span></h1></a>
+                    <a href="index.html"><h1><span class="clr-red">MITS</span> <span class="clr-green">Kiosk</span></h1></a>
                 </div>
                 <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
@@ -165,7 +165,7 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
-            <div class="md">Welcome to <br><span class="clr-red md">Mit</span> <span class="clr-green md">Canteen</span></div>
+            <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-green md">Kiosk</span></div>
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
         <!-- Other way of LogIn's -->
@@ -257,13 +257,11 @@ function customerFooterUI() {
                     <!-- About College -->
                     <article class="about">
                         <h1 class="sm">about</h1>
-                        <p>Malwa Institute of Technology is governed by Indus 
-                        Global Educational & Welfare Society which was founded 
-                        in 2003 by a group of industrialists and educationalists
-                        who shared a vision of establishing centers of scientific
-                        learning around the country.</p>
+                        <p>Muthoot Institute of Technology and Science
+                        Varikoli P.O, Puthencruz- 682308
+                        PH: 0484-2732111/100</p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/malwainstitute/" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official?mibextid=ZbWKwL" target="_blank"> Facebook</a></li>
                             <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
                         </ul>
                     </article>
@@ -281,18 +279,14 @@ function customerFooterUI() {
                     <article class="contact">
                         <ul>
                             <h1 class="sm">Contact Information</h1>
-                            <li> <i class="fas fa-phone-alt"></i> <p>+91-731-2810001-08</p></li>
-                            <li> <i class="fas fa-envelope"></i> <p>admission@mitindore.co.in</p></li>
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Indore-Dewas Bypass Road, Indore (MP)-452016</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For Professional Courses, Visit: www.altius.ac.in</p></li>
+                            <li> <i class="fas fa-phone-alt"></i> <p>0484-2732111</p></li>
+                            <li> <i class="fas fa-envelope"></i> <p>mgmits.ac.in</p></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
+                            <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in</p></li>
                         </ul>
                     </article>
                 </main>
-                <!-- Deep Devs Info -->
-                <main class="deep-devs flex">
-                    <div>© Copyright 2020 - 2021. All Rights Reserved</div>
-                    <div class="">Designed & Developed with <i class="fas fa-heart clr-red"></i> By <a href="#">Deep Devs</a></div>
-                </main>
+                
             </section>
         `;
         })
@@ -312,13 +306,11 @@ function userFooterUI() {
                     <!-- About College -->
                     <article class="about">
                         <h1 class="sm">about</h1>
-                        <p>Malwa Institute of Technology is governed by Indus 
-                        Global Educational & Welfare Society which was founded 
-                        in 2003 by a group of industrialists and educationalists
-                        who shared a vision of establishing centers of scientific
-                        learning around the country.</p>
+                        <p>Muthoot Institute of Technology and Science
+                        Varikoli P.O, Puthencruz- 682308
+                        PH: 0484-2732111/100</p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/malwainstitute/" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official?mibextid=ZbWKwL" target="_blank"> Facebook</a></li>
                             <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
                         </ul>
                     </article>
@@ -336,18 +328,14 @@ function userFooterUI() {
                     <article class="contact">
                         <ul>
                             <h1 class="sm">Contact Information</h1>
-                            <li> <i class="fas fa-phone-alt"></i> <p>+91-731-2810001-08</p></li>
-                            <li> <i class="fas fa-envelope"></i> <p>admission@mitindore.co.in</p></li>
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Indore-Dewas Bypass Road, Indore (MP)-452016</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For Professional Courses, Visit: www.altius.ac.in</p></li>
+                            <li> <i class="fas fa-phone-alt"></i> <p>0484-2732111</p></li>
+                            <li> <i class="fas fa-envelope"></i> <p>mgmits.ac.in</p></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
+                            <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in                                                                     </p></li>
                         </ul>
                     </article>
                 </main>
-                <!-- Deep Devs Info -->
-                <main class="deep-devs flex">
-                    <div>© Copyright 2020 - 2021. All Rights Reserved</div>
-                    <div class="">Designed & Developed with <i class="fas fa-heart clr-red"></i> By <a href="#">Deep Devs</a></div>
-                </main>
+                
             </section>
         `;
         })
