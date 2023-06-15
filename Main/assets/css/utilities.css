@@ -5,7 +5,11 @@
 }
 
 .container-min { max-width: 1300px; margin: 0 auto; }
-
+.clr-whitish{color:rgb(205, 194, 180);}
+.clr-red { color: rgb(255, 0, 0); }
+.clr-purple { color: rgb(222, 46, 116); }
+.clr-black { color: #333;}
+.clr-lightgrey{ color:#ca72b0}
 /* Display Sections */
 .flex { display: flex; flex-wrap: wrap; }
 
