@@ -4,19 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITS Store |Menu</title>
 
-    <title>MITS Kiosk | Menu</title>
-
-   
-    
-    <!-- Page Icon -->
-    <link rel="Micosoft icon" href="assets/images/MIT LOGO.png">
-    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" 
           integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" 
           crossorigin="anonymous" />
-
+    
     <!-- Style Sheets -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
@@ -29,22 +23,20 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
 
     <!-- Sweet Alert Pop Modal -->
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>      
 </head>
 <body>
     
-    <!-- NavBar -->
-    <header class="navbar">
-        <div class="container flex text-center jc-ai-center">
-            <!-- Left Navigation -->
-            <div class="site-title flex align-item-center">
-                <div>
-
-                    <a href="client-side.html"><h1><span class="clr-purple">MITS</span> <span class="clr-whitish">Kiosk</span></h1></a>
-
-                  
-                </div>
-                <!-- Toggle Bars -->
+        <!-- NavBar -->
+        <header class="navbar">
+            <div class="container flex text-center jc-ai-center">
+                <!-- Left Navigation -->
+                <div class="site-title flex align-item-center">
+                    <div>
+   
+                        <a href="client-side.html"><h1><span class="clr-purple">MITS</span> <span class="clr-whitish">Store</span></h1></a>
+                    </div>
+                    <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
                     <div class="bars bar-1"></div>
                     <div class="bars bar-2"></div>
@@ -66,23 +58,6 @@
             </nav>
         </div>
     </header>
-
-    <!-- Mobile Navbar -->
-    <header class="mob-navbar">
-        <nav class="nav container">
-            <ul class="mob-ul">
-                <li><a href="client-side.html">Menu</a></li>
-                <li><a href="user-orders.html">My Orders</a></li>
-                <button  class="btn" id="userlogout">Log Out</button>
-                <!-- Cart Icon -->
-                <a class="flex" id="cart-btn">
-                    <i class="fas fa-shopping-cart"></i>
-                    <p id="cart-values">6</p>
-                </a>
-            </ul>
-        </nav>
-    </header>
-
     <!-- Cart -->
     <section class="cart-overlay">
         <div class="cart-innerlay">
@@ -112,18 +87,16 @@
             </div>
         </div>
     </section>
-
     <!-- Menu Showcase -->
     <!-- Hero -->
-    <section class="menu-hero">
+    <section class="menu-heroen">
         <div class="banner">
             <h1 class="banner-title lg">Our Menu</h1>
             <button class="banner-btn btn">order now</button>
         </div>
     </section>
-
-    <!-- Menu -->
-    <section class="menu" style="margin-bottom: 5rem;">
+     <!-- Menu -->
+     <section class="menu" style="margin-bottom: 5rem;">
         <main class="container grid grid-1">
             <!-- Title -->
            <div class="title text-center">
@@ -131,11 +104,9 @@
                 <!-- Filter Buttons -->
                 <div class="btn-container grid grid-4">
                     <button id="menu-filter" class="filter-btn btn current" type="button" data-id="all">All</button>
-                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Snacks">Snacks</button>
-                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Drinks">Drinks</button>
-                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Frozen Treats">Frozen Treats</button>
-                    <button id="menu-filter" class="filter-btn btn fv" type="button" data-id="Cup Noodles">Cup Noodles</button>
-                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Bhaji">Bhaji</button>
+                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Stationery">Stationery</button>
+                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Lab Record">Lab Record</button>
+                    <button id="menu-filter" class="filter-btn btn" type="button" data-id="Print">Print</button>
                 </div>
            </div>
            <hr>
@@ -145,16 +116,16 @@
            </div>
        </main>
    </section>
-   
-    <!-- User Footer -->
-    <footer class="customer-footer" id="user-footer" style="margin-top: 10rem;"><!-- Comes Through JS --></footer>
+   <!-- User Footer -->
+   <footer class="customer-footer" id="user-footer" style="margin-top: 10rem;"><!-- Comes Through JS --></footer>
 
-    <!-- Menu & Admin Stuff -->
-    <script src="assets/js/main.js"></script>
-    <!-- Creative Features -->
-    <script src="assets/js/features.js"></script>
+   <!-- Menu & Admin Stuff -->
+   <script src="assets/js/smain.js"></script>
+   <script src="assets/js/features.js"></script>
     <!-- Controls User Stuff -->
     <script src="assets/js/functioning.js"></script>
+
+
 
 </body>
 </html>
