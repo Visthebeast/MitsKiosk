@@ -6,7 +6,7 @@ if (previewNavbar) {
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
-                    <a href="index.html"><h1><span class="clr-red">MITS</span> <span class="clr-green">Kiosk</span></h1></a>
+                    <a href="index.html"><h1><span class="clr-purple">MITS</span> <span class="clr-whitish">Kiosk</span></h1></a>
                 </div>
                 <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
@@ -54,7 +54,7 @@ if (toggleBars) {
 }
 
 // Best Dishes Section
-var bestDishes = [
+/*var bestDishes = [
     {
         title: 'Masala Sandwich',
         rating: 4,
@@ -105,7 +105,7 @@ function bestDishesHero(){
         `
         if (bestDishesCont) {bestDishesCont.appendChild(div)}
     })
-}
+}*/
 bestDishesHero()
 
 // --- Sign In Modal ---
@@ -163,7 +163,11 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
+<<<<<<< Updated upstream
             <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-green md">Kiosk</span></div>
+=======
+            <div class="md">Welcome to <br><span class="clr-red md">Mits</span> <span class="clr-white md">Canteen</span></div>
+>>>>>>> Stashed changes
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
         <!-- Other way of LogIn's -->
