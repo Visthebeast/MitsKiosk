@@ -19,7 +19,6 @@ if (previewNavbar) {
             <nav class="site-nav flex left-nav align-item-center">                
                 <ul class="flex">
                     <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                    <li><a href="our-vision.html"><i class="far fa-eye"></i> Our Vision</a></li>
                     <button  class="btn" id="sign-modal">Log In</button>
                     <button  class="btn" id="signup-modal">Sign Up</button>
                 </ul>
@@ -35,7 +34,6 @@ if (mobPreviewNavbar) {
         <nav class="nav container">
             <ul class="mob-ul">
                 <li><a href="index.html">Home</a></li> 
-                <li><a href="our-vision.html">Our Vision</a></li>
                 <button class="btn" id="sign-modal">Log In</button>
                 <button class="btn" id="signup-modal">Sign Up</button>
             </ul>
@@ -165,11 +163,7 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
-<<<<<<< Updated upstream
             <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-green md">Kiosk</span></div>
-=======
-            <div class="md">Welcome to <br><span class="clr-red md">Mits</span> <span class="clr-white md">Canteen</span></div>
->>>>>>> Stashed changes
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
         <!-- Other way of LogIn's -->
@@ -261,17 +255,15 @@ function customerFooterUI() {
                     <!-- About College -->
                     <article class="about">
                         <h1 class="sm">about</h1>
-                        <p>Muthoot Institute of Technology and Science
-                        Varikoli P.O, Puthencruz- 682308
-<<<<<<< Updated upstream
-                        PH: 0484-2732111/100</p>
-=======
-                        PH: 0484-2732111/100
-                        </p>
->>>>>>> Stashed changes
+                        <p>Muthoot Institute of Technology and Science (MITS) is
+                             promoted by Muthoot M. George Institute of Technology,
+                             a Section 25 Company within the Muthoot Group. MITS is
+                             a self financing technical institution offering postgraduate
+                             and undergraduate engineering programmes, situated in the 
+                             industrial suburb of Kochi.</p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official?mibextid=ZbWKwL" target="_blank"> Facebook</a></li>
-                            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-instagram"></i><a href="https://instagram.com/mits_kochi?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a></li>
                         </ul>
                     </article>
                     <!-- Navigation Links -->
@@ -279,27 +271,21 @@ function customerFooterUI() {
                         <ul>
                             <h1 class="sm">Quick Links</h1>
                             <li><a href="index.html">Canteen Home</a></li>
-                            <li><a href="our-vision.html">Our Vision</a></li>
-                            <li><a href="https://github.com/rvutd/mit-canteen-site" target="_blank">Git Repository</a></li>
-                            <li><a href="https://mgmits.ac.in/" target="_blank">MITS</a></li>
+                            <li><a href="https://github.com/Visthebeast/MitsKiosk" target="_blank">Git Repository</a></li>
+                            <li><a href="https://mgmits.ac.in/" target="_blank">MITS Kochi</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
                     <article class="contact">
                         <ul>
                             <h1 class="sm">Contact Information</h1>
-                            <li> <i class="fas fa-phone-alt"></i> <p>0484-2732111</p></li>
-<<<<<<< Updated upstream
-                            <li> <i class="fas fa-envelope"></i> <p>mgmits.ac.in</p></li>
-=======
-                            <li> <i class="fas fa-envelope"></i> <p>info@mgits.ac.in</p></li>
->>>>>>> Stashed changes
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in</p></li>
+                            <li> <i class="fas fa-phone-alt"></i> <a href="tel:0484-2883300" >0484-2732100</a></li>
+                            <li> <i class="fas fa-envelope"></i> <a href="mailto:info@mgits.ac.in" >info@mgits.ac.in</a></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Varikoli P.O, Puthencruz- 682308</p></li>
                         </ul>
                     </article>
                 </main>
-                
+                </main>
             </section>
         `;
         })
@@ -319,17 +305,15 @@ function userFooterUI() {
                     <!-- About College -->
                     <article class="about">
                         <h1 class="sm">about</h1>
-                        <p>Muthoot Institute of Technology and Science
-                        Varikoli P.O, Puthencruz- 682308
-<<<<<<< Updated upstream
-                        PH: 0484-2732111/100</p>
-=======
-                        PH: 0484-2732111/100
-                        </p>
->>>>>>> Stashed changes
+                        <p>Muthoot Institute of Technology and Science (MITS) is
+                             promoted by Muthoot M. George Institute of Technology,
+                             a Section 25 Company within the Muthoot Group. MITS is
+                             a self financing technical institution offering postgraduate
+                             and undergraduate engineering programmes, situated in the 
+                             industrial suburb of Kochi.</p>
                         <ul class="py-1">
-                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official?mibextid=ZbWKwL" target="_blank"> Facebook</a></li>
-                            <li><i class="fab fa-instagram"></i><a href="https://www.instagram.com/malwa_institute_of_technology/" target="_blank">Instagram</a></li>
+                            <li><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/mgmits.official" target="_blank"> Facebook</a></li>
+                            <li><i class="fab fa-instagram"></i><a href="https://instagram.com/mits_kochi?igshid=MzRlODBiNWFlZA==" target="_blank">Instagram</a></li>
                         </ul>
                     </article>
                     <!-- Navigation Links -->
@@ -338,28 +322,22 @@ function userFooterUI() {
                             <h1 class="sm">Quick Links</h1>
                             <li><a href="client-side.html">Menu</a></li>
                             <li><a href="user-orders.html">Your Orders</a></li>
-                            <li><a href="https://github.com/rvutd/mit-canteen-site" target="_blank">Git Repository</a></li>
-                            <li><a href="https://mgmits.ac.in/" target="_blank">MITS</a></li>
+                            <li><a href="index.html">Canteen Home</a></li>
+                            <li><a href="https://github.com/Visthebeast/MitsKiosk" target="_blank">Git Repository</a></li>
+                            <li><a href="https://mgmits.ac.in/" target="_blank">MITS Kochi</a></li>
                         </ul>
                     </article>
                     <!-- Contact Details -->
                     <article class="contact">
                         <ul>
                             <h1 class="sm">Contact Information</h1>
-                            <li> <i class="fas fa-phone-alt"></i> <p>0484-2732111</p></li>
-<<<<<<< Updated upstream
-                            <li> <i class="fas fa-envelope"></i> <p>mgmits.ac.in</p></li>
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in                                                                     </p></li>
-=======
-                            <li> <i class="fas fa-envelope"></i> <p>info@mgits.ac.in</p></li>
-                            <li> <i class="fas fa-map-marker-alt"></i> <p>Muthoot Institute of Technology and Science Varikoli P.O, Puthencruz- 682308</p></li>
-                            <li> <i class="fas fa-globe-asia"></i> <p>For placement related queries, pc@mgits.ac.in</p></li>
->>>>>>> Stashed changes
+                            <li> <i class="fas fa-phone-alt"></i> <a href="tel:0484-2883300" >0484-2732100</a></li>
+                            <li> <i class="fas fa-envelope"></i> <a href="mailto:info@mgits.ac.in" >info@mgits.ac.in</a></li>
+                            <li> <i class="fas fa-map-marker-alt"></i> <p>Varikoli P.O, Puthencruz- 682308</p></li>
                         </ul>
                     </article>
                 </main>
-                
+                </main>
             </section>
         `;
         })
