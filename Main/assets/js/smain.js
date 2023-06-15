@@ -1,6 +1,6 @@
 var newMenu = [
     {
-        "sys": { "id": "1" },
+        "sys": { "id": "36" },
         "fields": {
             "title": "Notebooks",
             "category": "Stationery",
@@ -9,7 +9,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "2" },
+        "sys": { "id": "37" },
         "fields": {
             "title": "Pens",
             "category": "Stationery",
@@ -18,7 +18,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "3" },
+        "sys": { "id": "38" },
         "fields": {
             "title": "Pencils ",
             "category": "Stationery",
@@ -27,7 +27,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "4" },
+        "sys": { "id": "39" },
         "fields": {
             "title": "Scissors",
             "category": "Stationery",
@@ -36,7 +36,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "5" },
+        "sys": { "id": "40" },
         "fields": {
             "title": "Calculator",
             "category": "Stationery",
@@ -45,7 +45,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "6" },
+        "sys": { "id": "41" },
         "fields": {
             "title": "Fevicol",
             "category": "Stationery",
@@ -54,7 +54,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "7" },
+        "sys": { "id": "42" },
         "fields": {
             "title": "Cello Tape ",
             "category": "Stationery",
@@ -63,7 +63,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "8" },
+        "sys": { "id": "43" },
         "fields": {
             "title": "Eraser",
             "category": "Stationery",
@@ -72,7 +72,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "9" },
+        "sys": { "id": "44" },
         "fields": {
             "title": "A-4 paper",
             "category": "Stationery",
@@ -81,7 +81,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "10" },
+        "sys": { "id": "45" },
         "fields": {
             "title": "Files",
             "category": "Stationery",
@@ -90,7 +90,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "11" },
+        "sys": { "id": "46" },
         "fields": {
             "title": "Sharpener",
             "category": "Stationery",
@@ -99,7 +99,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "12" },
+        "sys": { "id": "47" },
         "fields": {
             "title": "Scale",
             "category": "Stationery",
@@ -108,7 +108,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "13" },
+        "sys": { "id": "48" },
         "fields": {
             "title": "Dairy Milk",
             "category": "Chocolates",
@@ -117,7 +117,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "14" },
+        "sys": { "id": "49" },
         "fields": {
             "title": "Choki-Choki",
             "category": "Chocolates",
@@ -126,7 +126,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "15" },
+        "sys": { "id": "50" },
         "fields": {
             "title": "Mentos-Strawberry",
             "category": "Chocolates",
@@ -135,7 +135,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "16" },
+        "sys": { "id": "51" },
         "fields": {
             "title": "Mentos-Orange",
             "category": "Chocolates",
@@ -144,7 +144,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "17" },
+        "sys": { "id": "52" },
         "fields": {
             "title": "Mentos-Mint",
             "category": "Chocolates",
@@ -153,7 +153,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "18" },
+        "sys": { "id": "53" },
         "fields": {
             "title": "Tic-Tac",
             "category": "Chocolates",
@@ -162,7 +162,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "19" },
+        "sys": { "id": "54" },
         "fields": {
             "title": "Double Mint",
             "category": "Chocolates",
@@ -171,7 +171,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "20" },
+        "sys": { "id": "55" },
         "fields": {
             "title": "Munch",
             "category": "Chocolates",
@@ -180,7 +180,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "21" },
+        "sys": { "id": "56" },
         "fields": {
             "title": "Maha Munch",
             "category": "Chocolates",
@@ -189,7 +189,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "22" },
+        "sys": { "id": "57" },
         "fields": {
             "title": "Gems",
             "category": "Chocolates",
@@ -198,7 +198,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "23" },
+        "sys": { "id": "58" },
         "fields": {
             "title": "Perk",
             "category": "Chocolates",
@@ -207,7 +207,7 @@ var newMenu = [
         }
     },
     {
-        "sys": { "id": "24" },
+        "sys": { "id": "59" },
         "fields": {
             "title": "Lab Record",
             "category": "Lab Record",
