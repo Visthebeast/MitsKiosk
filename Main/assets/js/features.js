@@ -6,7 +6,7 @@ if (previewNavbar) {
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
-                    <a href="index.html"><h1><span class="clr-purple">MITS</span> <span class="clr-whitish">Kiosk</span></h1></a>
+                    <a href="index.html"><h1><span class="clr-red">MITS</span> <span class="clr-white">Kiosk</span></h1></a>
                 </div>
                 <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
