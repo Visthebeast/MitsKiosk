@@ -5,48 +5,43 @@ var newMenu = [
             "title": "Notebooks",
             "category": "Stationery",
             "price": "40",
-           
             "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/1192/7528/collections/papergrid.jpg?v=1625385205" } } }
         }
     },
     {
         "sys": { "id": "2" },
         "fields": {
-            "title": "Veg Sandwich",
-            "category": "Sandwich",
-            "price": "45",
-            "caleories": "250 - 300 Kcal",
-            "image": { "fields": {"file": { "url": "https://subwayaruba.com/wp-content/uploads/2019/05/sub6-veggie-delite.jpg" } } }
+            "title": "Pens",
+            "category": "Stationery",
+            "price": "10",
+            "image": { "fields": {"file": { "url": "https://luxor.in/media/catalog/product/cache/1d33a401d7d4f49c41930c20a2e836a7/9/0/9000030188_0_1.jpg" } } }
         }
     },
     {
         "sys": { "id": "3" },
         "fields": {
-            "title": "Veg Cutlet ",
-            "category": "Cutlet",
-            "price": "60",
-            "caleories": "320 - 400 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.cookwithmanali.com/wp-content/uploads/2021/04/Veg-Cutlet.jpg" } } }
+            "title": "Pencils ",
+            "category": "Stationery",
+            "price": "5",
+            "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/183019540/photo/pencils.jpg?s=170667a&w=0&k=20&c=BrNwXrPH5704DjP81eJw2m0-26skAgunzoQTzp_s5hY=" } } }
         }
     },
     {
         "sys": { "id": "4" },
         "fields": {
-            "title": "Chicken Cutlet",
-            "category": "Cutlet",
-            "price": "45",
-            "caleories": "250 - 300 Kcal",
-            "image": { "fields": {"file": { "url": "https://cdn3.foodviva.com/static-content/food-images/snacks-recipes/vegetable-cutlet-recipe/vegetable-cutlet-recipe.jpg" } } }
+            "title": "Scissors",
+            "category": "Stationery",
+            "price": "50",
+            "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/718IrxlnEnL.jpg" } } }
         }
     },
     {
         "sys": { "id": "5" },
         "fields": {
-            "title": "Meat Roll",
-            "category": "Roll",
-            "price": "45",
-            "caleories": "230 - 285 Kcal",
-            "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-7dPIbobpVxw/YQFZM1ccJwI/AAAAAAAATlI/oNIXqCuxChMmyfgYnB84Nqlg7JNQ6BDOwCLcBGAsYHQ/s800/IMG_2214.JPG" } } }
+            "title": "Calculator",
+            "category": "Stationery",
+            "price": "100",
+            "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/61iy52iEgDL.jpg" } } }
         }
     },
     {
@@ -135,7 +130,6 @@ var newMenu = [
             "title": "Appy Fizz",
             "category": "Drinks",
             "price": "80",
-            "caleories": "241 - 321 Kcal",
             "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/0101/2364/0896/products/IMG_9013_78bbfa5f-f257-402d-aab7-767b09c9d4dc_600x600_crop_center.jpg?v=1674192376" } } }
         }
     },
@@ -398,7 +392,10 @@ function displayMenuItems(menuItems){
             <figure>
                 <h2>${item.fields.title}</h2>
                 <div class="item-category">${item.fields.category}</div>
-                
+                <div class="flex" style="margin-top: 10px;">
+                    <i class="fas fa-fire"></i>
+                    <p>${item.fields.caleories}</p>
+                </div>
             </figure>
             <hr style="margin: 10px 0;">
             <div class="menu-cart-functionality">
