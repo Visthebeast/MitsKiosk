@@ -111,7 +111,7 @@ var newMenu = [
         "sys": { "id": "13" },
         "fields": {
             "title": "Dairy Milk",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "20",
             "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/0579/0829/7801/products/001_3.png?v=1665512917&width=1946" } } }
         }
@@ -120,7 +120,7 @@ var newMenu = [
         "sys": { "id": "14" },
         "fields": {
             "title": "Choki-Choki",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "5",
             "image": { "fields": {"file": { "url": "https://90skidsindia.com/image/cache/catalog/candy1/images%20(33)-1000x1000.jpeg" } } }
         }
@@ -129,7 +129,7 @@ var newMenu = [
         "sys": { "id": "15" },
         "fields": {
             "title": "Mentos-Strawberry",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "1",
             "image": { "fields": {"file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/534e242617dd650b4195be84b903ec825ae6b325-3000x1759.png" } } }
         }
@@ -138,7 +138,7 @@ var newMenu = [
         "sys": { "id": "16" },
         "fields": {
             "title": "Mentos-Orange",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "1",
             "image": { "fields": {"file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/4e2a0475429db608d8e5024c9c9d1a435a144ec8-3000x1759.png" } } }
         }
@@ -147,7 +147,7 @@ var newMenu = [
         "sys": { "id": "17" },
         "fields": {
             "title": "Mentos-Mint",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "1",
             "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/51bJvv1bKgL.jpg" } } }
         }
@@ -156,7 +156,7 @@ var newMenu = [
         "sys": { "id": "18" },
         "fields": {
             "title": "Tic-Tac",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "10",
             "image": { "fields": {"file": { "url": "https://www.tictac.com/us/sites/tictac30_us/files/styles/700x700_scaled/public/2022-10/freshmint.png" } } }
         }
@@ -165,7 +165,7 @@ var newMenu = [
         "sys": { "id": "19" },
         "fields": {
             "title": "Double Mint",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "10",
             "image": { "fields": {"file": { "url": "https://etimg.etb2bimg.com/thumb/msid-53853883,width-1200,resizemode-4/.jpg" } } }
         }
@@ -174,7 +174,7 @@ var newMenu = [
         "sys": { "id": "20" },
         "fields": {
             "title": "Munch",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "5",
             "image": { "fields": {"file": { "url": "https://www.nestle.in/sites/g/files/pydnoa451/files/MUNCH-Rs-5-270x295.jpg" } } }
         }
@@ -183,7 +183,7 @@ var newMenu = [
         "sys": { "id": "21" },
         "fields": {
             "title": "Maha Munch",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "10",
             "image": { "fields": {"file": { "url": "https://media.mastbazaar.com/catalog/product/cache/f1d278c568328400bf84bb90ab99967c/8/4/846b17547cdad4dab8493023cbe46b3f80b0a0a91cd3d6221671646215eb180f.jpeg" } } }
         }
@@ -192,7 +192,7 @@ var newMenu = [
         "sys": { "id": "22" },
         "fields": {
             "title": "Gems",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "10",
             "image": { "fields": {"file": { "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruWllgd0x2NxbSqNPIZWBCRQE_IX0UxOmxUol-FfQ7hsticCYqYiJZE0aAzFOTXGSntY&usqp=CAU" } } }
         }
@@ -201,7 +201,7 @@ var newMenu = [
         "sys": { "id": "23" },
         "fields": {
             "title": "Perk",
-            "category": "Chocolate",
+            "category": "Chocolates",
             "price": "15",
             "image": { "fields": {"file": { "url": "https://www.jiomart.com/images/product/original/491074314/cadbury-perk-twin-wafer-chocolate-bar-28-g-product-images-o491074314-p491074314-0-202203171001.jpg" } } }
         }
