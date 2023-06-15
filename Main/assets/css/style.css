@@ -74,7 +74,7 @@ body {
   border-bottom:4px solid red;
 }
 .heading-c{
-  margin-top:20px;
+  padding-top:40px;
   font-family:"carter one";
   font-size: 50px;
 }
@@ -92,7 +92,7 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
-  margin-top:120px; 
+  margin-top:140px; 
 }
 img{
   width: 100%;
@@ -651,8 +651,8 @@ footer {
   background-color: #171819;
   color: #fff;
   padding: 70px 0;
-  
-  margin-top:100%;
+  margin-top:120%;
+
 }
 
 footer li,
