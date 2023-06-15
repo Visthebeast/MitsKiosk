@@ -1,22 +1,24 @@
   // --- Authentication Part ---
   // Your web app's Firebase configuration
-  // var firebaseConfig = {
-  //   apiKey: "AIzaSyDBn5GMIvsqhTPMVAeylq-I_2R8SSJYzmI",
-  //   authDomain: "js-login-form.firebaseapp.com",
-  //   projectId: "js-login-form",
-  //   storageBucket: "js-login-form.appspot.com",
-  //   messagingSenderId: "1039987076182",
-  //   appId: "1:1039987076182:web:e51f940647b55c0cd7dff7",
-  //  };
-const firebaseConfig = {
-  apiKey: "AIzaSyDyIZZBAfHB6bhkStEwFyoHU9hLgVydtsA",
-  authDomain: "mitskiosk.firebaseapp.com",
-  projectId: "mitskiosk",
-  storageBucket: "mitskiosk.appspot.com",
-  messagingSenderId: "420437179140",
-  appId: "1:420437179140:web:590e6cd71b86aa52cf2e51",
-  measurementId: "G-LJ7D16N4RF"
-};
+  var firebaseConfig = {
+    apiKey: "AIzaSyDBn5GMIvsqhTPMVAeylq-I_2R8SSJYzmI",
+    authDomain: "js-login-form.firebaseapp.com",
+    projectId: "js-login-form",
+    storageBucket: "js-login-form.appspot.com",
+    messagingSenderId: "1039987076182",
+    appId: "1:1039987076182:web:e51f940647b55c0cd7dff7",
+   };
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDyIZZBAfHB6bhkStEwFyoHU9hLgVydtsA",
+//   authDomain: "mitskiosk.firebaseapp.com",
+//   databaseURL: "https://mitskiosk-default-rtdb.firebaseio.com",
+//   projectId: "mitskiosk",
+//   storageBucket: "mitskiosk.appspot.com",
+//   messagingSenderId: "420437179140",
+//   appId: "1:420437179140:web:590e6cd71b86aa52cf2e51",
+//   measurementId: "G-LJ7D16N4RF"
+// };
   
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);  
