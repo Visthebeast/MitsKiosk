@@ -6,7 +6,7 @@ if (previewNavbar) {
             <!-- Left Navigation -->
             <div class="site-title flex align-item-center">
                 <div>
-                    <a href="index.html"><h1><span class="clr-purple">MITS</span> <span class="clr-whitish">Kiosk</span></h1></a>
+                    <a href="index.html"><h1><span class="clr-red">MITS</span> <span class="clr-white">Kiosk</span></h1></a>
                 </div>
                 <!-- Toggle Bars -->
                 <div class="toggle-bars mybar">
@@ -18,7 +18,7 @@ if (previewNavbar) {
             <!-- Right Navigation -->
             <nav class="site-nav flex left-nav align-item-center">                
                 <ul class="flex">
-                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
                     <button  class="btn" id="sign-modal">Log In</button>
                     <button  class="btn" id="signup-modal">Sign Up</button>
                 </ul>
