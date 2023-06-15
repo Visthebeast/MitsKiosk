@@ -246,7 +246,7 @@ var newMenu = [
             "category": "Ice-cream",
             "price": "20",
             "caleories": "265 - 375 Kcal",
-            "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/1001742216/photo/ice-cream-cornetto-ice-cream-waffle-cone-vanilla-and-chocolate-on-rustic-background.jpg?s=170667a&w=0&k=20&c=zNM7zw8WwxASazT8fYqmP7g7f4Cg_0tfME-F9_fJPf8=" } } }
+            "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/466765604/photo/cornetto-ice-cream.jpg?s=612x612&w=0&k=20&c=VwHRBX757E0d1kHiiF4Mb6b_Cf2V6p1RHkBwssKgaXQ=" } } }
         }
     },
     {
