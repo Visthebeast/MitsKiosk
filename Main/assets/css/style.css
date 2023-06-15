@@ -41,7 +41,13 @@ body {
   font-size: 1rem;
   color: #333;
 }
-
+.heading{
+  color:rgb(255, 255, 255);
+  text-align:center;
+  background-color:red ;
+  padding:20px;
+  width:100%;
+}
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -522,7 +528,9 @@ span {
   justify-content: center; 
   font-size: 16px;
   text-align: center;
-  padding:20px;
+  padding-top:18px;
+  padding-left:60px;
+  padding-right:60px;
 }
 
 /* Come & Dine Section */
@@ -547,39 +555,6 @@ span {
   font-size: 17px;
 }
 
-/* Most Loved Dishes */
-.dishes .container-min {
-  max-width: 1600px;
-  margin-bottom: 60px;
-  margin: 0 auto;
-}
-
-.dishes .grid {
-  justify-content: center;
-}
-
-.dishes .card {
-  display: block;
-  width: 320px;
-  padding: 35px;
-  transition: transform 0.3s ease-in;
-}
-
-.dishes h2 {
-  font-size: 29px;
-  color: #aea512;
-}
-
-.dishes img {
-  padding: 10px;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-
-.dishes .card:hover {
-  transform: translateY(-10px);
-}
 
 /* ------------------ Menu Page CSS ----------------- */
 
