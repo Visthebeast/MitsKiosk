@@ -47,302 +47,175 @@ var newMenu = [
     {
         "sys": { "id": "6" },
         "fields": {
-            "title": "Samosa",
-            "category": "Samosa",
-            "price": "25",
-            "caleories": "150 - 280 Kcal",
-            "image": { "fields": {"file": { "url": "https://dwellbymichelle.com/wp-content/uploads/2021/03/DWELL-Samosa-Recipe.jpeg" } } }
+            "title": "Fevicol",
+            "category": "Stationery",
+            "price": "20",
+            "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/41bV0vfIroL.jpg" } } }
         }
     },
     {
         "sys": { "id": "7" },
         "fields": {
-            "title": "Banana fry ",
-            "category": "Banana fry",
-            "price": "30",
-            "caleories": "165 - 225 Kcal",
-            "image": { "fields": {"file": { "url": "https://static.toiimg.com/thumb/93738582.cms?width=1200&height=900" } } }
+            "title": "Cello Tape ",
+            "category": "Stationery",
+            "price": "80",
+            "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/41uz0bGEEJL.jpg" } } }
         }
     },
     {
         "sys": { "id": "8" },
         "fields": {
-            "title": "Chicken Puffs",
-            "category": "Puffs",
-            "price": "30",
-            "caleories": "170 - 220 Kcal",
-            "image": { "fields": {"file": { "url": "https://littlespicejar.com/wp-content/uploads/2014/02/Chicken-Puff-Pastry-Chicken-Patties-18-540x720.jpg" } } }
+            "title": "Eraser",
+            "category": "Stationery",
+            "price": "5",
+            "image": { "fields": {"file": { "url": "https://www.towntokri.com/wp-content/uploads/2021/04/Apsara-NonDust-Eraser-mrp5.jpg" } } }
         }
     },
     {
         "sys": { "id": "9" },
         "fields": {
-            "title": "Egg Puffs",
-            "category": "Puffs",
-            "price": "40",
-            "caleories": "190 - 230 Kcal",
-            "image": { "fields": {"file": { "url": "https://thegoldenlamb.com/wp-content/uploads/2021/09/egg-puff-recipe-indian-main.jpg" } } }
+            "title": "A-4 paper",
+            "category": "Stationery",
+            "price": "1",
+            "image": { "fields": {"file": { "url": "https://tiimg.tistatic.com/fp/1/007/609/white-a4-size-copier-paper-used-in-printing-and-photocopy-662.jpg" } } }
         }
     },
     {
         "sys": { "id": "10" },
         "fields": {
-            "title": "Bread fry",
-            "category": "Bread",
-            "price": "45",
-            "caleories": "175 - 235 Kcal",
-            "image": { "fields": {"file": { "url": "https://villagecookingkerala.com/wp-content/uploads/2021/01/jgjjjgjgj-678x381.jpg" } } }
+            "title": "Files",
+            "category": "Stationery",
+            "price": "20",
+            "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/51lWLp1kfmL._AC_UF1000,1000_QL80_.jpg" } } }
         }
     },
     {
         "sys": { "id": "11" },
         "fields": {
-            "title": "Smoodh",
-            "category": "Drinks",
-            "price": "35",
-            "caleories": "120 - 185 Kcal",
-            "image": { "fields": {"file": { "url": "https://gumlet.assettype.com/foodtechbiz%2F2021-06%2F14ee0fde-adbc-4d9e-9125-60fc593b0de0%2F1624261283053.jpg?rect=0%2C7%2C1080%2C608&w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true" } } }
+            "title": "Sharpener",
+            "category": "Stationery",
+            "price": "5",
+            "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2020/10/CD/YQ/DH/109286633/pencil-sharpener-500x500.jpg" } } }
         }
     },
     {
         "sys": { "id": "12" },
         "fields": {
-            "title": "Maa Juice",
-            "category": "Drinks",
-            "price": "45",
-            "caleories": "135 - 210 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.luluhypermarket.in/medias/29216-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTU0MTJ8aW1hZ2UvanBlZ3xhRFZrTDJnNVppODRPRGN5TlRRNE9ESTNNVFkyTHpJNU1qRTJMVEF4TG1wd1oxOHhNakF3VjNneE1qQXdTQXwwYmYyZGQ1YmZjYzAxMjJmY2I1MzM0NzEwMjZmMzI1OThkNDVhYjgzMTQ1ZjMxZWQzMTZhZGFmMzNkOWFjNmFj" } } }
+            "title": "Scale",
+            "category": "Stationery",
+            "price": "15",
+            "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40126493-3_2-faber-castell-scale-plastic.jpg" } } }
         }
     },
     {
         "sys": { "id": "13" },
         "fields": {
-            "title": "Coca Cola",
-            "category": "Drinks",
-            "price": "40",
-            "caleories": "140 - 156 Kcal",
-            "image": { "fields": {"file": { "url": "https://i.guim.co.uk/img/media/d13a335be378fd1d5360d34a88faefe2b6e38ca9/0_156_3500_2100/master/3500.jpg?width=700&quality=85&auto=format&fit=max&s=092c5fc37ff9a1f56faae91550b1d035" } } }
+            "title": "Dairy Milk",
+            "category": "Chocolate",
+            "price": "20",
+            "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/0579/0829/7801/products/001_3.png?v=1665512917&width=1946" } } }
         }
     },
     {
         "sys": { "id": "14" },
         "fields": {
-            "title": "Appy Fizz",
-            "category": "Drinks",
-            "price": "80",
-            "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/0101/2364/0896/products/IMG_9013_78bbfa5f-f257-402d-aab7-767b09c9d4dc_600x600_crop_center.jpg?v=1674192376" } } }
+            "title": "Choki-Choki",
+            "category": "Chocolate",
+            "price": "5",
+            "image": { "fields": {"file": { "url": "https://90skidsindia.com/image/cache/catalog/candy1/images%20(33)-1000x1000.jpeg" } } }
         }
     },
     {
         "sys": { "id": "15" },
         "fields": {
-            "title": "Sprite",
-            "category": "Drinks",
-            "price": "80",
-            "caleories": "265 - 321 Kcal",
-            "image": { "fields": {"file": { "url": "https://ucarecdn.com/65a5c249-0a78-43dd-b035-238311381538/-/crop/1581x888/0,30/-/preview/" } } }
+            "title": "Mentos-Strawberry",
+            "category": "Chocolate",
+            "price": "1",
+            "image": { "fields": {"file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/534e242617dd650b4195be84b903ec825ae6b325-3000x1759.png" } } }
         }
     },
     {
         "sys": { "id": "16" },
         "fields": {
-            "title": "Monster",
-            "category": "Drinks",
-            "price": "35",
-            "caleories": "155 - 210 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.cantechonline.com/wp-content/uploads/Monster-Energy-drink-shutterstock_1145314877.jpg" } } }
+            "title": "Mentos-Orange",
+            "category": "Chocolate",
+            "price": "1",
+            "image": { "fields": {"file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/4e2a0475429db608d8e5024c9c9d1a435a144ec8-3000x1759.png" } } }
         }
     },
     {
         "sys": { "id": "17" },
         "fields": {
-            "title": "Predator",
-            "category": "Drinks",
-            "price": "35",
-            "caleories": "230 - 280 Kcal",
-            "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2022/7/PR/JT/JJ/145631512/3f4636bf77a4d129bb8b0279f07dabdc.jpg" } } }
+            "title": "Mentos-Mint",
+            "category": "Chocolate",
+            "price": "1",
+            "image": { "fields": {"file": { "url": "https://m.media-amazon.com/images/I/51bJvv1bKgL.jpg" } } }
         }
     },
     {
         "sys": { "id": "18" },
         "fields": {
-            "title": "Cavins",
-            "category": "Drinks",
+            "title": "Tic-Tac",
+            "category": "Chocolate",
             "price": "10",
-            "caleories": "260 - 365 Kcal",
-            "image": { "fields": {"file": { "url": "https://i0.wp.com/kitchenflavours.net/wp-content/uploads/2018/01/DSC_1459.jpg?fit=666%2C444&ssl=1" } } }
+            "image": { "fields": {"file": { "url": "https://www.tictac.com/us/sites/tictac30_us/files/styles/700x700_scaled/public/2022-10/freshmint.png" } } }
         }
     },
     {
         "sys": { "id": "19" },
         "fields": {
-            "title": "Cold Coffee",
-            "category": "Beverages",
-            "price": "35",
-            "caleories": "255 - 360 Kcal",
-            "image": { "fields": {"file": { "url": "assets/images/cold-coffee.jpg" } } }
+            "title": "Double Mint",
+            "category": "Chocolate",
+            "price": "10",
+            "image": { "fields": {"file": { "url": "https://etimg.etb2bimg.com/thumb/msid-53853883,width-1200,resizemode-4/.jpg" } } }
         }
     },
     {
         "sys": { "id": "20" },
         "fields": {
-            "title": "Mojito",
-            "category": "Drinks",
-            "price": "15",
-            "caleories": "220 - 265 Kcal",
-            "image": { "fields": {"file": { "url": "https://agratefulmeal.com/wp-content/uploads/2023/02/blue-mojito-curacao-cocktail-featured.jpg" } } }
+            "title": "Munch",
+            "category": "Chocolate",
+            "price": "5",
+            "image": { "fields": {"file": { "url": "https://www.nestle.in/sites/g/files/pydnoa451/files/MUNCH-Rs-5-270x295.jpg" } } }
         }
     },
     {
         "sys": { "id": "21" },
         "fields": {
-            "title": "Oreo Shake",
-            "category": "Drinks",
+            "title": "Maha Munch",
+            "category": "Chocolate",
             "price": "10",
-            "caleories": "155 - 225 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.whiskaffair.com/wp-content/uploads/2020/07/Oreo-Milkshake-2-3.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://media.mastbazaar.com/catalog/product/cache/f1d278c568328400bf84bb90ab99967c/8/4/846b17547cdad4dab8493023cbe46b3f80b0a0a91cd3d6221671646215eb180f.jpeg" } } }
         }
     },
     {
         "sys": { "id": "22" },
         "fields": {
-            "title": "Limca",
-            "category": "Drinks",
-            "price": "35",
-            "caleories": "265 - 355 Kcal",
-            "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2023/1/JE/ME/VN/69519039/1-25l-limca-carbonated-drinks.jpg" } } }
+            "title": "Gems",
+            "category": "Chocolate",
+            "price": "10",
+            "image": { "fields": {"file": { "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruWllgd0x2NxbSqNPIZWBCRQE_IX0UxOmxUol-FfQ7hsticCYqYiJZE0aAzFOTXGSntY&usqp=CAU" } } }
         }
     },
     {
         "sys": { "id": "23" },
         "fields": {
-            "title": "Tea",
-            "category": "Drinks",
-            "price": "35",
-            "caleories": "260 - 320 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.teaforturmeric.com/wp-content/uploads/2021/11/Masala-Chai-Tea-Recipe-Card.jpg" } } }
+            "title": "Perk",
+            "category": "Chocolate",
+            "price": "15",
+            "image": { "fields": {"file": { "url": "https://www.jiomart.com/images/product/original/491074314/cadbury-perk-twin-wafer-chocolate-bar-28-g-product-images-o491074314-p491074314-0-202203171001.jpg" } } }
         }
     },
     {
         "sys": { "id": "24" },
         "fields": {
-            "title": "Coffee",
-            "category": "Drinks",
-            "price": "15",
-            "caleories": "255 - 390 Kcal",
-            "image": { "fields": {"file": { "url": "https://post.healthline.com/wp-content/uploads/2020/08/AN275-cup-of-coffee-732x549-Thumb_0.jpg" } } }
+            "title": "Lab Record",
+            "category": "Lab Record",
+            "price": "105",
+            "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2021/7/JJ/IA/BF/133103611/record-notebook-500x500.jpg" } } }
         }
     },
-    {
-        "sys": { "id": "25" },
-        "fields": {
-            "title": "Cornetto",
-            "category": "Ice-cream",
-            "price": "20",
-            "caleories": "265 - 375 Kcal",
-            "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/466765604/photo/cornetto-ice-cream.jpg?s=612x612&w=0&k=20&c=VwHRBX757E0d1kHiiF4Mb6b_Cf2V6p1RHkBwssKgaXQ=" } } }
-        }
-    },
-    {
-        "sys": { "id": "26" },
-        "fields": {
-            "title": "Sip-Up",
-            "category": "Drinks",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://cdn.cocoshoppy.com/products/sip-up-new_1625461909656.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "27" },
-        "fields": {
-            "title": "Spiced Chicken",
-            "category": "Cup Noodles",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40052970_5-nissin-cup-noodles-spiced-chicken.jpg" } } }
-        }
-    },
-     {
-        "sys": { "id": "28" },
-        "fields": {
-            "title": "Mazedaar Masala",
-            "category": "Cup Noodles",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.mymadrasmart.com/wp-content/uploads/2021/03/nisson.jpg" } } }
-        }
-    },
-     {
-        "sys": { "id": "29" },
-        "fields": {
-            "title": "Sea Food",
-            "category": "Cup Noodles",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40118708_2-nissin-cup-noodles-seafood.jpg" } } }
-        }
-    },
-     {
-        "sys": { "id": "30" },
-        "fields": {
-            "title": "Veggi Manchow",
-            "category": "Cup Noodles",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/89127a.jpg?ts=1666162445" } } }
-        }
-    },
-     {
-        "sys": { "id": "31" },
-        "fields": {
-            "title": "Mulak",
-            "category": "Bhajji",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/JMkx1PNjwOE/maxresdefault.jpg" } } }
-        }
-    },
-     {
-        "sys": { "id": "32" },
-        "fields": {
-            "title": "Motta",
-            "category": "Bhajji",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/EwLWOnwAr0g/maxresdefault.jpg" } } }
-        }
-    },
-     {
-        "sys": { "id": "33" },
-        "fields": {
-            "title": "Ulli",
-            "category": "Bhajji",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-vI--sdfKefA/X95j26rZ5bI/AAAAAAAAqOo/E0n5NnTZaSsdqxHlwyz3xxFFJuFwpPrLwCLcBGAsYHQ/w1200-h630-p-k-no-nu/1-20201219_130631.jpg" } } }
-        }
-    },
-     {
-        "sys": { "id": "34" },
-        "fields": {
-            "title": "Cauliflower",
-            "category": "Bhajji",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/NLpjxrDYuWo/maxresdefault.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "35" },
-        "fields": {
-            "title": "French Fries",
-            "category": "Bhajji",
-            "price": "15",
-            "caleories": "300 - 425 Kcal",
-            "image": { "fields": {"file": { "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG" } } }
-        }
-    },
+   
 ]
 
 // Menu Section -
@@ -392,10 +265,7 @@ function displayMenuItems(menuItems){
             <figure>
                 <h2>${item.fields.title}</h2>
                 <div class="item-category">${item.fields.category}</div>
-                <div class="flex" style="margin-top: 10px;">
-                    <i class="fas fa-fire"></i>
-                    <p>${item.fields.caleories}</p>
-                </div>
+                
             </figure>
             <hr style="margin: 10px 0;">
             <div class="menu-cart-functionality">
