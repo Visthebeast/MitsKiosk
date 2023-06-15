@@ -216,7 +216,7 @@ function customerFooterUI() {
                     <article class="quick-links">
                         <ul>
                             <h1 class="sm">Quick Links</h1>
-                            <li><a href="index.html">Canteen Home</a></li>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="https://github.com/Visthebeast/MitsKiosk" target="_blank">Git Repository</a></li>
                             <li><a href="https://mgmits.ac.in/" target="_blank">MITS Kochi</a></li>
                         </ul>
