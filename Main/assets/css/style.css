@@ -395,10 +395,8 @@ span {
   transition: all 150ms ease-in-out;
 }
 
-.navbar .btn:hover {
-  border-color: #34c95e;
-  box-shadow: 0 0 10px 0 #34c95e inset, 0 0 10px 4px #34c95e;
-}
+
+
 
 /* Toggle Bars */
 .toggle-bars {

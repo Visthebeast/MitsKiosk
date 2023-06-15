@@ -3,7 +3,7 @@ var newMenu = [
         "sys": { "id": "1" },
         "fields": {
             "title": "Chicken Sandwich",
-            "category": "Sandwich",
+            "category": "Snacks",
             "price": "45",
             "caleories": "220 - 280 Kcal",
             "image": { "fields": {"file": { "url": "https://vaya.in/recipes/wp-content/uploads/2018/06/Grilled-Chicken-Sandwich.jpg" } } }
@@ -13,7 +13,7 @@ var newMenu = [
         "sys": { "id": "2" },
         "fields": {
             "title": "Veg Sandwich",
-            "category": "Sandwich",
+            "category": "Snacks",
             "price": "45",
             "caleories": "250 - 300 Kcal",
             "image": { "fields": {"file": { "url": "https://subwayaruba.com/wp-content/uploads/2019/05/sub6-veggie-delite.jpg" } } }
@@ -23,7 +23,7 @@ var newMenu = [
         "sys": { "id": "3" },
         "fields": {
             "title": "Veg Cutlet ",
-            "category": "Cutlet",
+            "category": "Snacks",
             "price": "60",
             "caleories": "320 - 400 Kcal",
             "image": { "fields": {"file": { "url": "https://www.cookwithmanali.com/wp-content/uploads/2021/04/Veg-Cutlet.jpg" } } }
@@ -33,7 +33,7 @@ var newMenu = [
         "sys": { "id": "4" },
         "fields": {
             "title": "Chicken Cutlet",
-            "category": "Cutlet",
+            "category": "Snacks",
             "price": "45",
             "caleories": "250 - 300 Kcal",
             "image": { "fields": {"file": { "url": "https://cdn3.foodviva.com/static-content/food-images/snacks-recipes/vegetable-cutlet-recipe/vegetable-cutlet-recipe.jpg" } } }
@@ -43,7 +43,7 @@ var newMenu = [
         "sys": { "id": "5" },
         "fields": {
             "title": "Meat Roll",
-            "category": "Roll",
+            "category": "Snacks",
             "price": "45",
             "caleories": "230 - 285 Kcal",
             "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-7dPIbobpVxw/YQFZM1ccJwI/AAAAAAAATlI/oNIXqCuxChMmyfgYnB84Nqlg7JNQ6BDOwCLcBGAsYHQ/s800/IMG_2214.JPG" } } }
@@ -53,7 +53,7 @@ var newMenu = [
         "sys": { "id": "6" },
         "fields": {
             "title": "Samosa",
-            "category": "Samosa",
+            "category": "Snacks",
             "price": "25",
             "caleories": "150 - 280 Kcal",
             "image": { "fields": {"file": { "url": "https://dwellbymichelle.com/wp-content/uploads/2021/03/DWELL-Samosa-Recipe.jpeg" } } }
@@ -63,7 +63,7 @@ var newMenu = [
         "sys": { "id": "7" },
         "fields": {
             "title": "Banana fry ",
-            "category": "Banana fry",
+            "category": "Snacks",
             "price": "30",
             "caleories": "165 - 225 Kcal",
             "image": { "fields": {"file": { "url": "https://static.toiimg.com/thumb/93738582.cms?width=1200&height=900" } } }
@@ -73,7 +73,7 @@ var newMenu = [
         "sys": { "id": "8" },
         "fields": {
             "title": "Chicken Puffs",
-            "category": "Puffs",
+            "category": "Snacks",
             "price": "30",
             "caleories": "170 - 220 Kcal",
             "image": { "fields": {"file": { "url": "https://littlespicejar.com/wp-content/uploads/2014/02/Chicken-Puff-Pastry-Chicken-Patties-18-540x720.jpg" } } }
@@ -83,7 +83,7 @@ var newMenu = [
         "sys": { "id": "9" },
         "fields": {
             "title": "Egg Puffs",
-            "category": "Puffs",
+            "category": "Snacks",
             "price": "40",
             "caleories": "190 - 230 Kcal",
             "image": { "fields": {"file": { "url": "https://thegoldenlamb.com/wp-content/uploads/2021/09/egg-puff-recipe-indian-main.jpg" } } }
@@ -93,7 +93,7 @@ var newMenu = [
         "sys": { "id": "10" },
         "fields": {
             "title": "Bread fry",
-            "category": "Bread",
+            "category": "Snacks",
             "price": "45",
             "caleories": "175 - 235 Kcal",
             "image": { "fields": {"file": { "url": "https://villagecookingkerala.com/wp-content/uploads/2021/01/jgjjjgjgj-678x381.jpg" } } }
@@ -183,7 +183,7 @@ var newMenu = [
         "sys": { "id": "19" },
         "fields": {
             "title": "Cold Coffee",
-            "category": "Beverages",
+            "category": "Drinks",
             "price": "35",
             "caleories": "255 - 360 Kcal",
             "image": { "fields": {"file": { "url": "assets/images/cold-coffee.jpg" } } }
@@ -243,7 +243,7 @@ var newMenu = [
         "sys": { "id": "25" },
         "fields": {
             "title": "Cornetto",
-            "category": "Ice-cream",
+            "category": "Frozen Treats",
             "price": "20",
             "caleories": "265 - 375 Kcal",
             "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/466765604/photo/cornetto-ice-cream.jpg?s=612x612&w=0&k=20&c=VwHRBX757E0d1kHiiF4Mb6b_Cf2V6p1RHkBwssKgaXQ=" } } }
@@ -253,7 +253,7 @@ var newMenu = [
         "sys": { "id": "26" },
         "fields": {
             "title": "Sip-Up",
-            "category": "Drinks",
+            "category": "Frozen Treats",
             "price": "15",
             "caleories": "300 - 425 Kcal",
             "image": { "fields": {"file": { "url": "https://cdn.cocoshoppy.com/products/sip-up-new_1625461909656.jpg" } } }
