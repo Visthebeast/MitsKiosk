@@ -51,8 +51,8 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   position: absolute;
-  top:300px;
-  left:400px;
+  top:280px;
+  left:350px;
   border-radius:20px;
 }
 
@@ -74,6 +74,7 @@ body {
   border-bottom:4px solid red;
 }
 .heading-c{
+  margin-top:20px;
   font-family:"carter one";
   font-size: 50px;
 }
@@ -776,7 +777,7 @@ footer .deep-devs a {
 }
 
 .menu-hero {
-  background: url("https://www.questrmg.com/wp-content/uploads/2019/03/web-banner-Top-Three-Restaurant-Trends.jpg") center/cover no-repeat;
+  background: url("https://letusstudy.in/storage/colleges/gallery/164/294/280120191235.jpg") center/cover no-repeat;
   min-height: calc(95vh - 60px);
   display: flex;
   align-items: center;
