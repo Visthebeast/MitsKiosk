@@ -53,61 +53,6 @@ if (toggleBars) {
     });
 }
 
-// Best Dishes Section
-/*var bestDishes = [
-    {
-        title: 'Masala Sandwich',
-        rating: 4,
-        imgURL: "assets/images/s2.jpg",
-        description: "Sumptuous delicious food baked in our cafe with curated ingredients",
-        price: 30
-    },
-    {
-        title: 'Red Pasta',
-        rating: 5,
-        imgURL: "assets/images/pasta.jpg",
-        description: "Sumptuous delicious food baked in our cafe with curated ingredients",
-        price: 45
-    },
-    {
-        title: 'White Pasta',
-        rating: 5,
-        imgURL: "assets/images/white-pasta.jpg",
-        description: "Sumptuous delicious food baked in our cafe with curated ingredients",
-        price: 25
-    },
-    {
-        title: 'French Fries',
-        rating: 4,
-        imgURL: "assets/images/shezuan.jpg",
-        description: "Sumptuous delicious food baked in our cafe with curated ingredients",
-        price: 35
-    }
-]
-const bestDishesCont = document.querySelector('#best-dishes-container');
-function bestDishesHero(){
-    bestDishes.forEach(index => {
-        var div = document.createElement('div')
-        div.innerHTML = `
-            <a href="#" class="card text-center m-2">
-                <h2>${index.title}</h2>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-                <img src="${index.imgURL}" loading="lazy" alt="Canteen Dishes">
-                <p>${index.description}</p>
-                <h3 class="md">&#8377; ${index.price}</h3>
-            </a>
-        `
-        if (bestDishesCont) {bestDishesCont.appendChild(div)}
-    })
-}
-bestDishesHero()
-*/
 // --- Sign In Modal ---
 const signInModalbtn = document.querySelectorAll('#sign-modal');
 const signModal = document.querySelector('.sign-modal');
