@@ -398,10 +398,7 @@ function displayMenuItems(menuItems){
             <figure>
                 <h2>${item.fields.title}</h2>
                 <div class="item-category">${item.fields.category}</div>
-                <div class="flex" style="margin-top: 10px;">
-                    <i class="fas fa-fire"></i>
-                    <p>${item.fields.caleories}</p>
-                </div>
+                
             </figure>
             <hr style="margin: 10px 0;">
             <div class="menu-cart-functionality">
