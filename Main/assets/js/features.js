@@ -163,11 +163,7 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
-<<<<<<< Updated upstream
             <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-green md">Kiosk</span></div>
-=======
-            <div class="md">Welcome to <br><span class="clr-red md">Mits</span> <span class="clr-white md">Canteen</span></div>
->>>>>>> Stashed changes
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
         <!-- Other way of LogIn's -->
