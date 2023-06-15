@@ -343,6 +343,7 @@ function setOrderDetails(trimedEmailID){
 
                     if (deliveryStatus === true){ orderStatus = 'Ready' }
 
+                    
                     // --- Creates Main Container ---
                     const div = document.createElement('main');
                     div.classList.add('current-details');

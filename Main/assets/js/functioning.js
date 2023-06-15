@@ -9,6 +9,8 @@
   //   appId: "1:1039987076182:web:e51f940647b55c0cd7dff7",
   //  };
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyDyIZZBAfHB6bhkStEwFyoHU9hLgVydtsA",
   authDomain: "mitskiosk.firebaseapp.com",
