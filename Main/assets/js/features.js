@@ -18,7 +18,7 @@ if (previewNavbar) {
             <!-- Right Navigation -->
             <nav class="site-nav flex left-nav align-item-center">                
                 <ul class="flex">
-                    <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <button  class="btn" id="sign-modal">Log In</button>
                     <button  class="btn" id="signup-modal">Sign Up</button>
                 </ul>
