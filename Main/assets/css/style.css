@@ -777,12 +777,13 @@ footer .deep-devs a {
 }
 
 .menu-hero {
-  background: url("https://letusstudy.in/storage/colleges/gallery/164/294/280120191235.jpg") center/cover no-repeat;
+  background: url("https://images.collegedunia.com/public/college_data/images/campusimage/15873158377.png") center/cover no-repeat;
   min-height: calc(95vh - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 .menu-hero .banner{
   color:rgb(72, 68, 68);
