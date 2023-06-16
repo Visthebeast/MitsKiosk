@@ -41,19 +41,8 @@ body {
   font-size: 1rem;
   color: #333;
 }
-.banner{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.heading{
-  width:700px;
-  height:220px;
-  
-  border-radius:20px;
-}
+
+
 
 .heading-a{
   margin-top:20px;
@@ -61,6 +50,7 @@ body {
   padding-bottom: 0;
   font-family:poppins;
   font-size:40px;
+  text-align:center;
 }
 .heading-b{
   padding-top:0;
@@ -68,6 +58,7 @@ body {
   font-family: "carter one";
   font-size:100px;
   font-weight:bold;
+  text-align:center;
   
 }
 .border{
@@ -94,7 +85,7 @@ body {
   color:rgb(72, 68, 68);
   text-align:center;
   padding:200px;
-  width:100%;
+  width:70%;
 }
 /* Scroll Bar */
 ::-webkit-scrollbar {
@@ -807,7 +798,7 @@ footer .deep-devs a {
   color:rgb(72, 68, 68);
   text-align:center;
   padding:200px;
-  width:100%;
+  width:70%;
 }
 .main-img .banner {
   padding: 2rem;
@@ -830,10 +821,14 @@ footer .deep-devs a {
   justify-content: center;
 }
 .banner{
-  width: 700px;
+    width: 700px;
     height: 280px;
     background-color: rgba(236, 236, 236, 0.811);
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .menu-heroen .banner,
