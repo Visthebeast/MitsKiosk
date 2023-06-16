@@ -605,9 +605,9 @@ function filtering(addToCartBtn){
                     menuItemClass.classList.remove('display-none')
                     menuItemClass.classList.add('show')
                 }
-                if (Category === 'storeall') {
-                    menuItemClass.classList.remove('display-none')
-                    menuItemClass.classList.add('show')
+                if (Category === 'storeall' && id > 35) {
+                    menuItemClass.classList.remove('display-none');
+                    menuItemClass.classList.add('show');
                 }
             })
         })

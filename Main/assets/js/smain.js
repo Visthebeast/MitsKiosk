@@ -246,9 +246,9 @@ function filtering(addToCartBtn){
                 if (Category != newMenu[id-1].fields.category){
                     menuItemClass.classList.add('display-none')
                 }
-                if (Category === 'all'){
-                    menuItemClass.classList.remove('display-none')
-                    menuItemClass.classList.add('show')
+                if (Category === 'storeall' && id > 35) {
+                    menuItemClass.classList.remove('display-none');
+                    menuItemClass.classList.add('show');
                 }
             })
         })
