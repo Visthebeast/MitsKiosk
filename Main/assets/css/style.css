@@ -78,6 +78,24 @@ body {
   font-family:"carter one";
   font-size: 50px;
 }
+.banner-title{
+  margin-top:28px;
+}
+.cafe-hero {
+  background: url("https://theloophk.com/image.php?webp=1&image=https://d2d5f3568fvb9s.cloudfront.net/wp-content/uploads/2018/12/06120517/artemis.jpg&width=1300px&height=650px&zc=1%20") center/cover no-repeat;
+  min-height: calc(95vh - 60px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cafe-hero .banner{
+  color:rgb(72, 68, 68);
+  text-align:center;
+  padding:200px;
+  width:100%;
+}
 /* Scroll Bar */
 ::-webkit-scrollbar {
   width: 8px;
