@@ -573,6 +573,12 @@ var newMenu = [
     
 ]
 
+// document.addEventListener('DOMContentLoaded', () => {
+//     const Category = localStorage.getItem('Category');
+//     // Use the retrieved Category value for any further processing
+//     // Rest of your code
+// });
+
 // Menu Section -
 const menuSection = document.querySelector('.menu-section');
 // Menu Filter Buttons -
@@ -583,7 +589,7 @@ function filtering(addToCartBtn){
     menuFilterBtns.forEach( btn => {
         btn.addEventListener('click', (e)=>{
             const Category = e.currentTarget.dataset.id;
-
+            //localStorage.setItem('Category', Category);
             // Current Btn Indication - 
             btn.classList.add('current')
             menuFilterBtns.forEach(i =>{
@@ -613,7 +619,11 @@ function filtering(addToCartBtn){
         })
     })
 }
-
+// document.addEventListener('DOMContentLoaded', () => {
+//     const Category = localStorage.getItem('Category');
+//     // Use the retrieved Category value for any further processing
+//     // Rest of your code
+// });
 // Function To Create Menu Cards & Add to HTML
 function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function(item){
