@@ -829,6 +829,12 @@ footer .deep-devs a {
   align-items: center;
   justify-content: center;
 }
+.banner{
+  width: 700px;
+    height: 280px;
+    background-color: rgba(236, 236, 236, 0.811);
+    border-radius: 20px;
+}
 
 .menu-heroen .banner,
 .main-img .banner {
