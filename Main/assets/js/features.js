@@ -345,10 +345,10 @@ function setOrderDetails(trimedEmailID){
 
                     
                     // --- Creates Main Container ---
-                    const division = document.createElement('main');
-                    division.classList.add('current-details');
+                    const div = document.createElement('main');
+                    div.classList.add('current-details');
                         
-                    division.innerHTML = `
+                    div.innerHTML = `
                         <!-- Current Order Main Titles -->
                         <table class="main-details">
                             <div class="flex" style="justify-content: space-between;">
@@ -377,7 +377,7 @@ function setOrderDetails(trimedEmailID){
                         <button class="table-btn" id="show-order-details">More Details</button>
                     `
                     
-                    orderInner.appendChild(division)
+                    orderInner.appendChild(div)
 
                     // --- Creates table of Current Order ---
                     let sID = 0
