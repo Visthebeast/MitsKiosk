@@ -327,7 +327,7 @@ function setOrderDetails(trimedEmailID){
                 var orderStatus = data[key].Order_Status
                 var trimedID = '';
                 var orderID = 'UO' + date
-
+                console.log(orderID)
                 // Creates Order ID
                 for (let j = 0; j < orderID.length; j++){
                     if (orderID[j] != '/'){
@@ -345,10 +345,10 @@ function setOrderDetails(trimedEmailID){
 
                     
                     // --- Creates Main Container ---
-                    const div = document.createElement('main');
-                    div.classList.add('current-details');
-
-                    div.innerHTML = `
+                    const division = document.createElement('main');
+                    division.classList.add('current-details');
+                        
+                    division.innerHTML = `
                         <!-- Current Order Main Titles -->
                         <table class="main-details">
                             <div class="flex" style="justify-content: space-between;">
@@ -376,7 +376,8 @@ function setOrderDetails(trimedEmailID){
                         </table>
                         <button class="table-btn" id="show-order-details">More Details</button>
                     `
-                    orderInner.appendChild(div)
+                    
+                    orderInner.appendChild(division)
 
                     // --- Creates table of Current Order ---
                     let sID = 0

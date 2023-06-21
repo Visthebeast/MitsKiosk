@@ -1,4 +1,4 @@
-var newMenu = [
+var snewMenu = [
     {
         "sys": { "id": "36" },
         "fields": {
@@ -239,11 +239,11 @@ function filtering(addToCartBtn){
             addToCartBtn.forEach(item => {
                 let id = item.dataset.id;
                 let menuItemClass = item.parentElement.parentElement.parentElement.parentElement
-                if (Category === newMenu[id-1].fields.category){
+                if (Category === snewMenu[id-1].fields.category){
                     menuItemClass.classList.remove('display-none')
                     menuItemClass.classList.add('show')
                 }
-                if (Category != newMenu[id-1].fields.category){
+                if (Category != snewMenu[id-1].fields.category){
                     menuItemClass.classList.add('display-none')
                 }
                 if (Category === 'storeall' && id > 35) {
@@ -342,7 +342,7 @@ function showUserCart(addItem, trimedEmailID){
         let quantity = item.Quantity;
         No_of_Item += quantity;
         // Menu Fields
-        let inMenu = newMenu[id].fields;
+        let inMenu = snewMenu[id].fields;
         // Total Amount Calc
         totalAmount = totalAmount + (quantity * inMenu.price);
         // Creating Cart Item in Cart
@@ -533,7 +533,7 @@ function userOrderManagement (trimedEmailID , userCart, userEmailID){
 // Main.js When Content Loaded
 document.addEventListener('DOMContentLoaded', () =>{
     // Client UI
-    displayMenuItems(newMenu);
+    displayMenuItems(snewMenu);
     showUserCart(addItem)
     const addToCartBtn = document.querySelectorAll('#add-to-cart-btn');
     // Menu Filtering items

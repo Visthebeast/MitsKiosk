@@ -352,6 +352,7 @@ var newMenu = [
 
 
 
+    //store items
 
 
     {
@@ -607,7 +608,7 @@ function filtering(addToCartBtn){
                 if (Category != newMenu[id-1].fields.category){
                     menuItemClass.classList.add('display-none')
                 }
-                if (Category === 'all'){
+                if (Category === 'cafeall' && id<36){
                     menuItemClass.classList.remove('display-none')
                     menuItemClass.classList.add('show')
                 }
@@ -619,6 +620,7 @@ function filtering(addToCartBtn){
         })
     })
 }
+
 // document.addEventListener('DOMContentLoaded', () => {
 //     const Category = localStorage.getItem('Category');
 //     // Use the retrieved Category value for any further processing
@@ -899,15 +901,26 @@ function userOrderManagement (trimedEmailID , userCart, userEmailID){
     .push(current_order);
 }
 
+var pageName = window.location.pathname;
+console.log(pageName);
+
+//var pageURL = document.URL;
+//console.log(pageURL);
+
 // Main.js When Content Loaded
 document.addEventListener('DOMContentLoaded', () =>{
     // Client UI
-    displayMenuItems(newMenu);
-    showUserCart(addItem)
+    if (pageName == "/client-side.html"){
+        displayMenuItems(newMenu.slice(0, 35));
+    }
+    else if (pageName == "/Store.html"){
+        displayMenuItems(newMenu.slice(36));
+    }
+    showUserCart(addItem);
     const addToCartBtn = document.querySelectorAll('#add-to-cart-btn');
     // Menu Filtering items
-    filtering(addToCartBtn)
-    ClientDataFlow(addToCartBtn)
+    filtering(addToCartBtn);
+    ClientDataFlow(addToCartBtn);
 });
 
 // When User Loggin and Do Stuff
@@ -917,7 +930,7 @@ function ClientDataFlow(addToCartBtn){
         if (user) {
             const userEmailID = user.email
             var trimedEmailID = makeUserDataID(userEmailID);
-            console.log(trimedEmailID);
+            //console.log(trimedEmailID);
 
             // Get Cart Items already stored
             firebase.database()
