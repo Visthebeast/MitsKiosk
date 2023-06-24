@@ -23,4 +23,47 @@ if (adminSRC === window.location.href) {
     removeContainer.classList.toggle("show-container");
     addContainer.classList.remove("show-container");
   });
+  // Add event listener to "Add to Menu" button
+var addButton = document.querySelector('.add-product .btn');
+addButton.addEventListener('click', function() {
+  var titleInput = document.getElementById('add-title');
+  var priceInput = document.getElementById('add-price');
+  var categorySelect = document.getElementById('add-category');
+
+  // Perform validation on input fields
+  if (titleInput.value === '' || priceInput.value === '') {
+    Swal.fire('Error', 'Please fill in all fields.', 'error');
+    return;
+  }
+
+  // Add the product to the menu (your implementation here)
+
+  // Show success message
+  Swal.fire('Success', 'Product added to menu successfully!', 'success');
+
+  // Clear input fields
+  titleInput.value = '';
+  priceInput.value = '';
+});
+
+// Add event listener to "Remove From Menu" button
+var removeButton = document.querySelector('.remove .btn');
+removeButton.addEventListener('click', function() {
+  var titleInput = document.querySelector('.remove input[type="text"]');
+
+  // Perform validation on input field
+  if (titleInput.value === '') {
+    Swal.fire('Error', 'Please enter the title of the food to remove.', 'error');
+    return;
+  }
+
+  // Remove the product from the menu (your implementation here)
+
+  // Show success message
+  Swal.fire('Success', 'Product removed from menu successfully!', 'success');
+
+  // Clear input field
+  titleInput.value = '';
+});
+
 }
