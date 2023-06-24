@@ -108,16 +108,11 @@ if (signUpModal){
     <div class="modal-container">
         <!-- Written Stuff -->
         <div class="modal-content">
-            <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-white md">Kiosk</span></div>
+            <div class="md">Welcome to <br><span class="clr-red md">MITS</span> <span class="clr-black md">Kiosk</span></div>
 
             <div><i onclick="signUpModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
-        <!-- Other way of LogIn's -->
-        <ul class="modal-icons flex">
-                <li><button><i class="fab fa-google" id="google-signUpIn"></i></button></li>
-                <li><button><i class="fab fa-github" id="github-signUpIn"></i></button></li>
-                <li><button><i class="fab fa-facebook" id="facebook-signUpIn"></i></button></li>
-        </ul>
+        
         <!-- Sign Up Input's -->
         <form class="modal-form grid py-1 text-center" id="main-form" required>
             <input type="text" placeholder="Full Name" id="sign-up-full-name" required>
@@ -157,12 +152,6 @@ if (signModal) {
             <div class="md">Welcome back!</div>
             <div><i onclick="signModal.classList.remove('show');" class="fas fa-times"></i></div>
         </div>
-        <!-- Other way of LogIn's -->
-        <ul class="modal-icons flex">
-            <li><button><i class="fab fa-google" id="google-signUpIn"></i></button></li>
-            <li><button><i class="fab fa-github" id="github-signUpIn"></i></button></li>
-            <li><button><i class="fab fa-facebook" id="facebook-signUpIn"></i></button></li>
-        </ul>
         <!-- Sign In Input's -->
         <form class="modal-form grid py-1 text-center" id="signIn-form">
             <input type="email" placeholder="Email Id" id="sign-in-email" required>
