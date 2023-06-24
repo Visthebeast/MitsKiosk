@@ -7,11 +7,11 @@ const addContainer = document.querySelector(".add-container");
 const removeContainer = document.querySelector(".remove-container");
 
 // Admin Side URL
-const adminSRC = "http://127.0.0.1:5502/admin-side.html";
+const adminStoreSRC = "http://127.0.0.1:5502/admin-Store.html";
 
 // --- Admin Side ---
 if (adminSRC === window.location.href) {
-  console.log("admin side");
+  console.log("admin Store");
   // Admin Management Btns
   addProductBtn.addEventListener("click", () => {
     addContainer.classList.toggle("show-container");
