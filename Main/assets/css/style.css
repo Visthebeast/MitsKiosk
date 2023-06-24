@@ -1051,3 +1051,49 @@ tr {
 #custom .bold {
   margin-bottom: 1.5rem;
 }
+
+.user-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-button:hover {
+  background-color: #3a3a3a;
+}
+
+.order-container {
+  margin-bottom: 20px;
+  /* Adjust the value as needed */
+}
+
+.order-table {
+  margin-bottom: 20px;
+}
+
+/* .order-delivered-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+} */
+
+.order-delivered-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-delivered-button:hover {
+  background-color: #3a3a3a;
+}

@@ -342,7 +342,7 @@ function showUserCart(addItem, trimedEmailID){
         let quantity = item.Quantity;
         No_of_Item += quantity;
         // Menu Fields
-        let inMenu = snewMenu[id].fields;
+        let inMenu = newMenu[id].fields;
         // Total Amount Calc
         totalAmount = totalAmount + (quantity * inMenu.price);
         // Creating Cart Item in Cart
@@ -533,7 +533,7 @@ function userOrderManagement (trimedEmailID , userCart, userEmailID){
 // Main.js When Content Loaded
 document.addEventListener('DOMContentLoaded', () =>{
     // Client UI
-    displayMenuItems(snewMenu);
+    displayMenuItems(newMenu);
     showUserCart(addItem)
     const addToCartBtn = document.querySelectorAll('#add-to-cart-btn');
     // Menu Filtering items

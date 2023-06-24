@@ -574,6 +574,8 @@ var newMenu = [
     
 ]
 
+//export { newMenu };
+
 // document.addEventListener('DOMContentLoaded', () => {
 //     const Category = localStorage.getItem('Category');
 //     // Use the retrieved Category value for any further processing
@@ -1001,6 +1003,7 @@ function ClientDataFlow(addToCartBtn){
             // Shows Orders
             if (window.location.href === 'user-orders.html'){
                 setOrderDetails(trimedEmailID)
+                console.log('heerererer')
             }
         } else {
         console.log('no user logged in');

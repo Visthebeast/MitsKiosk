@@ -17,6 +17,10 @@ if (adminSRC === window.location.href) {
     addContainer.classList.toggle("show-container");
     removeContainer.classList.remove("show-container");
   });
+  console.log('JavaScript file loaded.');
+
+// Rest of your code goes here...
+
 
   // Admin Management Btns
   removeProductBtn.addEventListener("click", () => {
@@ -65,5 +69,73 @@ removeButton.addEventListener('click', function() {
   // Clear input field
   titleInput.value = '';
 });
+
+
+// Rest of your code goes here...
+
+  // Function to display orders
+  function setOrderDetails() {
+    const orderTable = document.getElementById('order-table');
+    const subtotal = document.getElementById('subtotal');
+
+    firebase
+      .database()
+      .ref('Users_Order')
+      .on('value', function (snapshot) {
+        orderTable.innerHTML = '';
+        subtotal.textContent = '';
+
+        if (snapshot.exists()) {
+          var users = snapshot.val();
+
+          var i = 1;
+
+          for (const userEmail in users) {
+            if (users.hasOwnProperty(userEmail)) {
+              var userOrders = users[userEmail];
+
+              for (const orderKey in userOrders) {
+                if (userOrders.hasOwnProperty(orderKey)) {
+                  var order = userOrders[orderKey];
+                  var total = order.User_Cart.Total_Amount;
+                  var UserCart = order.User_Cart.Details;
+                  var subTotal = 0;
+
+                  UserCart.forEach(item => {
+                    var foodItem = item.FoodItem;
+                    var amount = item.Amount;
+                    var quantity = item.Quantity;
+                    var itemTotal = amount * quantity;
+
+                    subTotal += itemTotal;
+                    console.log(foodItem);
+                    var tr = document.createElement('tr');
+                    tr.innerHTML = `
+                    <td>${i}.</td>
+                    <td>${foodItem}</td>
+                    <td>${amount}</td>
+                    <td>${itemTotal.toFixed(2)}</td>
+                  `;
+                    orderTable.appendChild(tr);
+
+                    i++;
+                  });
+
+                  var subtotalDiv = document.createElement('div');
+                  subtotalDiv.classList.add('bold');
+                  subtotalDiv.textContent = 'Sub-Total: ' + subTotal.toFixed(2);
+                  subtotal.appendChild(subtotalDiv);
+                }
+              }
+            }
+          }
+        } else {
+          console.log('No orders');
+        }
+      });
+  }
+
+  // Call the function to display all orders
+  setOrderDetails();
 
 }
