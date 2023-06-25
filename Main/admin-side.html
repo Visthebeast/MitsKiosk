@@ -55,7 +55,6 @@
         <!-- Right Navigation -->
         <nav class="site-nav flex left-nav align-item-center">
           <ul class="flex">
-            <li><a href="admin-Store.html">Store</a></li>
             <li><a href="order.html">Orders</a></li>
             <li><a href="admin-side.html">Product Management</a></li>
             <button class="btn" id="logout" style="padding: 10px 20px">
@@ -70,7 +69,6 @@
     <header class="mob-navbar">
       <nav class="nav container">
         <ul class="mob-ul">
-          <li><a href="admin-Store.html">Store</a></li>
           <li><a href="orders.html">Orders</a></li>
           <li><a href="admin-side.html">Product Management</a></li>
           <button class="btn" id="logout" style="padding: 10px 20px">
@@ -80,17 +78,17 @@
       </nav>
     </header>
 
-    <!-- Product Management -->
+    <!-- Cafe Product Management -->
     <section class="product-management">
       <div class="container-min grid">
-        <div class="title md text-center">Product Management</div>
+        <div class="title md text-center">Cafe Product Management</div>
         <hr />
         <article class="choose-operation text-center">
           <button class="btn p-1" id="add-product-menu">
-            Add a Product to Menu
+            Add a Food item to Menu
           </button>
           <button class="btn p-1" id="remove-product-menu">
-            Remove a Product from Menu
+            Remove a Food item from Menu
           </button>
         </article>
       </div>
@@ -151,6 +149,59 @@
             <div class="my-1 text-center">
               <button class="btn">Remove From Menu</button>
             </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Store Product Management -->
+    <section class="product-management">
+      <div class="container-min grid">
+        <div class="title md text-center">Store Product Management</div>
+        <hr />
+        <article class="choose-operation text-center">
+          <button class="btn p-1" id="add-item-menu">
+            Add a Product to Menu
+          </button>
+          <button class="btn p-1" id="remove-item-menu">
+            Remove a Product from Menu
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="add-product add-item add-cont">
+      <div class="container-min grid">
+        <div class="title md text-center">Add Product in Menu</div>
+        <hr />
+        <!-- Add Menu Item -->
+        <article class="menu-item text-center">
+          <img src="https://luxor.in/media/catalog/product/cache/1d33a401d7d4f49c41930c20a2e836a7/9/0/9000030188_0_1.jpg" alt="Product image" />
+
+          <div class="item-info">
+            <figure>
+              <div class="flex align-item-center">
+                <input id="add-title" type="text" placeholder="Title of Product" />
+                
+                <input
+                  id="add-price"
+                  type="text"
+                  placeholder="Price"
+                  id="product-price"
+                />
+              </div>
+            </figure>
+            <div class="item-category my-1">
+              <select name="Categories" id="add-category">
+                <option value="Stationary">Stationary</option>
+                <option value="Chocolates">Chocolates</option>
+                <option value="Lab Record">Lab Record</option>
+              </select>
+            </div>
+            <div class="my-1 text-center">
+              <button class="btn">Add to Menu</button>
+            </div>
+          </div>
           </div>
         </article>
       </div>
