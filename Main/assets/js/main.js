@@ -396,6 +396,7 @@ var newMenu = [
             "title": "Notebooks",
             "category": "Stationery",
             "price": "40",
+            "caleories": "300 - 425 Kcal",
             "shop": "store",
             "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/1192/7528/collections/papergrid.jpg?v=1625385205" } } }
         }
@@ -687,6 +688,8 @@ function filtering(addToCartBtn){
 //     // Use the retrieved Category value for any further processing
 //     // Rest of your code
 // });
+
+
 // Function To Create Menu Cards & Add to HTML
 var pageName = window.location.pathname;
 console.log(pageName);
@@ -694,7 +697,7 @@ function displayMenuItems(menuItems) {
     let displayMenu = menuItems
         .map(function (item) {
             if (
-                (pageName === "/Client-side.html" && item.fields.shop === "cafe") ||
+                (pageName === "/client-side.html" && item.fields.shop === "cafe") ||
                 (pageName === "/Store.html" && item.fields.shop === "store")
             ) {
                 return `
@@ -757,11 +760,12 @@ function foodItemCartBtn(data_id, quantity, trimedEmailID, addItem){
     // Add Food ID to object
     var product = {
         FoodID: data_id,
-        Quantity: quantity
+        Quantity: quantity,
     }
+    console.log(product)
     // add that to last position
     addItem.push(product);
-
+    //console.log(addItem)
     if (addItem.length != 0){
         // Save to Firebase DB
         firebase.database().ref('Users_Carts/' + trimedEmailID + '_Cart').set({
@@ -1019,9 +1023,16 @@ function ClientDataFlow(addToCartBtn){
                         addItem.push(userCart[i])
                         // Disable already added items
                         if (window.location != 'user-orders.html'){
-                            //console.log(i)
-                            addToCartBtn[userCart[i].FoodID-1].disabled = true;
-                            addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart';
+                            if(pageName == "/client-side.html"){
+                                addToCartBtn[userCart[i].FoodID-1].disabled = true;
+                                console.log(userCart[i])
+                                addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart';
+                            }
+                            else if(pageName == "/Store.html" ){
+                                addToCartBtn[userCart[i+35].FoodID - 1].disabled = true;
+                                console.log(userCart[i+35].FoodID-1)
+                                addToCartBtn[userCart[i+35].FoodID - 1].innerHTML = 'In Cart';
+                            }
                         }
                     }
                     cartFunctionalities(addItem, trimedEmailID, addToCartBtn);
