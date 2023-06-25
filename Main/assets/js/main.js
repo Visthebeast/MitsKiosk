@@ -304,7 +304,7 @@ var newMenu = [
             "price": "15",
             "caleories": "300 - 425 Kcal",
             "shop": "cafe",
-            "image": { "fields": {"file": { "url": "https://www.mymadrasmart.com/wp-content/uploads/2021/03/nisson.jpg" } } }
+            "image": { "fields": {"file": { "url": "https://www.babayeeandtutti.com/back_panel/images/product_img/f678863c16a4e2a0c79e2c905befbd84.jpg" } } }
         }
     },
      {
