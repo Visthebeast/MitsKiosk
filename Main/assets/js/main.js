@@ -611,11 +611,11 @@ function filtering(addToCartBtn){
                 if (Category != newMenu[id-1].fields.category){
                     menuItemClass.classList.add('display-none')
                 }
-                if (Category === 'cafeall' && id<36){
+                if (Category === 'cafeall' && newMenu[id-1].fields.shop == "cafe"){
                     menuItemClass.classList.remove('display-none')
                     menuItemClass.classList.add('show')
                 }
-                if (Category === 'storeall' && id > 35) {
+                if (Category === 'storeall' && newMenu[id - 1].fields.shop == "store") {
                     menuItemClass.classList.remove('display-none');
                     menuItemClass.classList.add('show');
                 }
@@ -632,24 +632,20 @@ function filtering(addToCartBtn){
 // Function To Create Menu Cards & Add to HTML
 var pageName = window.location.pathname;
 console.log(pageName);
-function displayMenuItems(menuItems){
-    let startIndex = 0;
-    let endIndex = menuItems.length;
-
-    if (pageName === "/Client-side.html") {
-        endIndex = Math.min(35, menuItems.length);
-    } else if (pageName === "/Store.html") {
-        startIndex = 36;
-    }
-    let displayMenu = menuItems.slice(startIndex, endIndex).map(function (item) {
-        return `
+function displayMenuItems(menuItems) {
+    let displayMenu = menuItems
+        .map(function (item) {
+            if (
+                (pageName === "/Client-side.html" && item.fields.shop === "cafe") ||
+                (pageName === "/Store.html" && item.fields.shop === "store")
+            ) {
+                return `
         <article class="menu-item">
             <img src="${item.fields.image.fields.file.url}" loading="lazy" alt="Product image">
             <div class="item-info">
             <figure>
                 <h2>${item.fields.title}</h2>
                 <div class="item-category">${item.fields.category}</div>
-                
             </figure>
             <hr style="margin: 10px 0;">
             <div class="menu-cart-functionality">
@@ -660,12 +656,18 @@ function displayMenuItems(menuItems){
             </div>
             </div>
         </article>
-        `;all
-    });
+        `;
+            } else {
+                return ''; // Empty string for items that should not be displayed
+            }
+        });
 
     displayMenu = displayMenu.join('');
-    if (menuSection) {menuSection.innerHTML = displayMenu;}
+    if (menuSection) {
+        menuSection.innerHTML = displayMenu;
+    }
 }
+
 
 // ------------------ Menu.html Menu Cards END ------------------------
 
