@@ -6,6 +6,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "45",
             "caleories": "220 - 280 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://vaya.in/recipes/wp-content/uploads/2018/06/Grilled-Chicken-Sandwich.jpg" } } }
         }
     },
@@ -936,11 +937,6 @@ document.addEventListener('DOMContentLoaded', () =>{
     ClientDataFlow(addToCartBtn);
 });
 
-
-if (window.location.href === 'user-orders.html') {
-    setOrderDetails(trimedEmailID)
-    console.log('heerererer')
-}
 // When User Loggin and Do Stuff
 function ClientDataFlow(addToCartBtn){
     // When User Is logged In
@@ -957,7 +953,7 @@ function ClientDataFlow(addToCartBtn){
                 if (snapshot.exists()){
                     var userCart = snapshot.val().Details;
                     // Empty Array
-                    addItem = []
+                    addItem = []    
                     for (let i = 0; i< userCart.length; i++){
                         // Store previouly added items to array -
                         addItem.push(userCart[i])
@@ -1018,7 +1014,10 @@ function ClientDataFlow(addToCartBtn){
             })
 
             // Shows Orders
-            
+            if (window.location.href === 'user-orders.html'){
+                setOrderDetails(trimedEmailID)
+                console.log('heerererer')
+            }
         } else {
         console.log('no user logged in');
         }

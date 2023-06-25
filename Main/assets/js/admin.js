@@ -18,6 +18,9 @@ const removeitemContainer = document.querySelector(".remove-cont");
 // Admin Side URL
 const adminSRC = "http://127.0.0.1:5502/admin-side.html";
 
+console.log(newMenu); // Access the imported array from `main.js`
+
+
 // --- Admin Side ---
 if (adminSRC === window.location.href) {
   console.log("admin side");
@@ -105,7 +108,41 @@ addButton.addEventListener('click', function() {
     return;
   }
 
-  // Add the product to the menu (your implementation here)
+  // Adding the product to the menu
+  function addProductToMenu() {
+    // Get input values from the form
+    var title = document.getElementById('add-title').value;
+    var price = document.getElementById('add-price').value;
+    var category = document.getElementById('add-category').value;
+
+    // Generate a unique ID for the new product
+    var newProductId = newMenu.length + 1;
+
+    // Create the new product object
+    var newProduct = {
+      "sys": { "id": newProductId.toString() },
+      "fields": {
+        "title": title,
+        "category": category,
+        "price": price,
+        "image": { "fields": { "file": { "url": "" } } }
+      }
+    };
+
+    // Add the new product to the menu array
+    newMenu.push(newProduct);
+
+    // Clear the form inputs
+    document.getElementById('add-title').value = '';
+    document.getElementById('add-price').value = '';
+
+    // Display a success message or perform any other desired action
+    alert('Product added successfully!');
+  }
+
+  // Attach event listener to the "Add to Menu" button
+  var addButton = document.querySelector('.menu-item .btn');
+  addButton.addEventListener('click', addProductToMenu);
 
   // Show success message
   Swal.fire('Success', 'Product added to menu successfully!', 'success');
@@ -198,6 +235,10 @@ removeButton.addEventListener('click', function() {
         }
       });
   }
+
+    // Function to add a new product to the menu
+    
+
 
   // Call the function to display all orders
   setOrderDetails();
