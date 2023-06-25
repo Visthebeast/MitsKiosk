@@ -61,6 +61,10 @@ const signModal = document.querySelector('.sign-modal');
 const signUpModalbtn = document.querySelectorAll('#signup-modal');
 const signUpModal = document.querySelector('.signup-modal');
 
+// //admin sign in modal
+// const adminSignInModalbtn = document.querySelectorAll('#admin-sign-modal');
+// const adminSignModal = document.querySelector('.admin-sign-modal');
+
 // --- Cart Modal ---
 const cartOverlay = document.querySelector('.cart-overlay');
 const cartInnerlay = document.querySelector('.cart-innerlay');
@@ -73,6 +77,8 @@ signInModalbtn.forEach(element => {
         return signIn_UI
     });
 });
+
+
 // Registration Modal
 signUpModalbtn.forEach(element => {
     element.addEventListener('click', () => {
@@ -80,6 +86,14 @@ signUpModalbtn.forEach(element => {
         return signUp_UI
     });
 });
+
+// // Admin Sign in Modal Button
+// adminSignInModalbtn.forEach(element => {
+//     element.addEventListener('click', () => {
+//         adminSignModal.classList.toggle('show');
+//         return adminSignIn_UI;
+//     });
+// });
 
 // Cart Button
 cartBtn.forEach(element => {
@@ -102,7 +116,7 @@ window.onclick = function(event) {
 }
 
 // Sign Up Modal
-var signUp_UI, signIn_UI;
+var signUp_UI, signIn_UI, adminSignIn_UI;
 if (signUpModal){
     signUp_UI = signUpModal.innerHTML = `
     <div class="modal-container">
@@ -177,6 +191,28 @@ if (signModal) {
     </div>
 `;
 }
+
+// // Admin Sign in Modal
+// if (adminSignModal) {
+//     adminSignIn_UI = adminSignInModal.innerHTML = `
+//     <!-- Main Card -->
+//     <div class="modal-container">
+//         <!-- Written Stuff -->
+//         <div class="modal-content">
+//             <div class="md">Admin Sign In</div>
+//             <div><i onclick="adminSignInModal.classList.remove('show');" class="fas fa-times"></i></div>
+//         </div>
+//         <!-- Admin Sign In Inputs -->
+//         <form class="modal-form grid py-1 text-center" id="adminSignIn-form">
+//             <input type="email" placeholder="Email Id" id="admin-sign-in-email" required>
+//             <input type="password" placeholder="Password" id="admin-sign-in-password" required>
+
+//             <button type="submit" class="btn">Login</button>
+//         </form>
+//     </div>
+//     `;
+// }
+
 
 // Home/Vision Footer
 var customerFooter = document.querySelectorAll('.customer-footer');

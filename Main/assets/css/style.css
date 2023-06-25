@@ -1096,3 +1096,8 @@ tr {
 .order-delivered-button:hover {
   background-color: #3a3a3a;
 }
+
+.user-list {
+  background-color: #fdfdfd;
+  padding: 20px;
+}
