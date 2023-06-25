@@ -591,7 +591,7 @@ function ClientDataFlow(addToCartBtn){
             })
 
             // User Check Out's -
-                n.addEventListener('click', ()=>{
+                scheckOutBtn.addEventListener('click', ()=>{
                 // Check If Cart is Empty or not -
                 if (addItem.length != 0){
                     // Order
