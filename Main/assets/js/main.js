@@ -17,6 +17,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "45",
             "caleories": "250 - 300 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://subwayaruba.com/wp-content/uploads/2019/05/sub6-veggie-delite.jpg" } } }
         }
     },
@@ -27,6 +28,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "60",
             "caleories": "320 - 400 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.cookwithmanali.com/wp-content/uploads/2021/04/Veg-Cutlet.jpg" } } }
         }
     },
@@ -37,6 +39,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "45",
             "caleories": "250 - 300 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://cdn3.foodviva.com/static-content/food-images/snacks-recipes/vegetable-cutlet-recipe/vegetable-cutlet-recipe.jpg" } } }
         }
     },
@@ -47,6 +50,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "45",
             "caleories": "230 - 285 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-7dPIbobpVxw/YQFZM1ccJwI/AAAAAAAATlI/oNIXqCuxChMmyfgYnB84Nqlg7JNQ6BDOwCLcBGAsYHQ/s800/IMG_2214.JPG" } } }
         }
     },
@@ -57,6 +61,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "25",
             "caleories": "150 - 280 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://dwellbymichelle.com/wp-content/uploads/2021/03/DWELL-Samosa-Recipe.jpeg" } } }
         }
     },
@@ -67,6 +72,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "30",
             "caleories": "165 - 225 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://static.toiimg.com/thumb/93738582.cms?width=1200&height=900" } } }
         }
     },
@@ -77,6 +83,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "30",
             "caleories": "170 - 220 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://littlespicejar.com/wp-content/uploads/2014/02/Chicken-Puff-Pastry-Chicken-Patties-18-540x720.jpg" } } }
         }
     },
@@ -87,6 +94,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "40",
             "caleories": "190 - 230 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://thegoldenlamb.com/wp-content/uploads/2021/09/egg-puff-recipe-indian-main.jpg" } } }
         }
     },
@@ -97,6 +105,7 @@ var newMenu = [
             "category": "Snacks",
             "price": "45",
             "caleories": "175 - 235 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://villagecookingkerala.com/wp-content/uploads/2021/01/jgjjjgjgj-678x381.jpg" } } }
         }
     },
@@ -107,6 +116,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "120 - 185 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://gumlet.assettype.com/foodtechbiz%2F2021-06%2F14ee0fde-adbc-4d9e-9125-60fc593b0de0%2F1624261283053.jpg?rect=0%2C7%2C1080%2C608&w=1200&auto=format%2Ccompress&ogImage=true&enlarge=true" } } }
         }
     },
@@ -117,6 +127,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "45",
             "caleories": "135 - 210 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.luluhypermarket.in/medias/29216-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wyMTU0MTJ8aW1hZ2UvanBlZ3xhRFZrTDJnNVppODRPRGN5TlRRNE9ESTNNVFkyTHpJNU1qRTJMVEF4TG1wd1oxOHhNakF3VjNneE1qQXdTQXwwYmYyZGQ1YmZjYzAxMjJmY2I1MzM0NzEwMjZmMzI1OThkNDVhYjgzMTQ1ZjMxZWQzMTZhZGFmMzNkOWFjNmFj" } } }
         }
     },
@@ -127,6 +138,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "40",
             "caleories": "140 - 156 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://i.guim.co.uk/img/media/d13a335be378fd1d5360d34a88faefe2b6e38ca9/0_156_3500_2100/master/3500.jpg?width=700&quality=85&auto=format&fit=max&s=092c5fc37ff9a1f56faae91550b1d035" } } }
         }
     },
@@ -137,6 +149,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "80",
             "caleories": "241 - 321 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://cdn.shopify.com/s/files/1/0101/2364/0896/products/IMG_9013_78bbfa5f-f257-402d-aab7-767b09c9d4dc_600x600_crop_center.jpg?v=1674192376" } } }
         }
     },
@@ -147,6 +160,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "80",
             "caleories": "265 - 321 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://ucarecdn.com/65a5c249-0a78-43dd-b035-238311381538/-/crop/1581x888/0,30/-/preview/" } } }
         }
     },
@@ -157,6 +171,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "155 - 210 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.cantechonline.com/wp-content/uploads/Monster-Energy-drink-shutterstock_1145314877.jpg" } } }
         }
     },
@@ -167,6 +182,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "230 - 280 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2022/7/PR/JT/JJ/145631512/3f4636bf77a4d129bb8b0279f07dabdc.jpg" } } }
         }
     },
@@ -177,6 +193,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "10",
             "caleories": "260 - 365 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://i0.wp.com/kitchenflavours.net/wp-content/uploads/2018/01/DSC_1459.jpg?fit=666%2C444&ssl=1" } } }
         }
     },
@@ -187,6 +204,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "255 - 360 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "assets/images/cold-coffee.jpg" } } }
         }
     },
@@ -197,6 +215,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "15",
             "caleories": "220 - 265 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://agratefulmeal.com/wp-content/uploads/2023/02/blue-mojito-curacao-cocktail-featured.jpg" } } }
         }
     },
@@ -207,6 +226,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "10",
             "caleories": "155 - 225 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.whiskaffair.com/wp-content/uploads/2020/07/Oreo-Milkshake-2-3.jpg" } } }
         }
     },
@@ -217,6 +237,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "265 - 355 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://5.imimg.com/data5/SELLER/Default/2023/1/JE/ME/VN/69519039/1-25l-limca-carbonated-drinks.jpg" } } }
         }
     },
@@ -227,6 +248,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "35",
             "caleories": "260 - 320 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.teaforturmeric.com/wp-content/uploads/2021/11/Masala-Chai-Tea-Recipe-Card.jpg" } } }
         }
     },
@@ -237,6 +259,7 @@ var newMenu = [
             "category": "Drinks",
             "price": "15",
             "caleories": "255 - 390 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://post.healthline.com/wp-content/uploads/2020/08/AN275-cup-of-coffee-732x549-Thumb_0.jpg" } } }
         }
     },
@@ -247,6 +270,7 @@ var newMenu = [
             "category": "Frozen Treats",
             "price": "20",
             "caleories": "265 - 375 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://media.istockphoto.com/id/466765604/photo/cornetto-ice-cream.jpg?s=612x612&w=0&k=20&c=VwHRBX757E0d1kHiiF4Mb6b_Cf2V6p1RHkBwssKgaXQ=" } } }
         }
     },
@@ -257,6 +281,7 @@ var newMenu = [
             "category": "Frozen Treats",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://cdn.cocoshoppy.com/products/sip-up-new_1625461909656.jpg" } } }
         }
     },
@@ -267,6 +292,7 @@ var newMenu = [
             "category": "Cup Noodles",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40052970_5-nissin-cup-noodles-spiced-chicken.jpg" } } }
         }
     },
@@ -277,6 +303,7 @@ var newMenu = [
             "category": "Cup Noodles",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.mymadrasmart.com/wp-content/uploads/2021/03/nisson.jpg" } } }
         }
     },
@@ -287,6 +314,7 @@ var newMenu = [
             "category": "Cup Noodles",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40118708_2-nissin-cup-noodles-seafood.jpg" } } }
         }
     },
@@ -297,6 +325,7 @@ var newMenu = [
             "category": "Cup Noodles",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=480,h=480/app/images/products/sliding_image/89127a.jpg?ts=1666162445" } } }
         }
     },
@@ -307,6 +336,7 @@ var newMenu = [
             "category": "Bhajji",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/JMkx1PNjwOE/maxresdefault.jpg" } } }
         }
     },
@@ -317,6 +347,7 @@ var newMenu = [
             "category": "Bhajji",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/EwLWOnwAr0g/maxresdefault.jpg" } } }
         }
     },
@@ -327,6 +358,7 @@ var newMenu = [
             "category": "Bhajji",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://1.bp.blogspot.com/-vI--sdfKefA/X95j26rZ5bI/AAAAAAAAqOo/E0n5NnTZaSsdqxHlwyz3xxFFJuFwpPrLwCLcBGAsYHQ/w1200-h630-p-k-no-nu/1-20201219_130631.jpg" } } }
         }
     },
@@ -337,6 +369,7 @@ var newMenu = [
             "category": "Bhajji",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://i.ytimg.com/vi/NLpjxrDYuWo/maxresdefault.jpg" } } }
         }
     },
@@ -347,6 +380,7 @@ var newMenu = [
             "category": "Bhajji",
             "price": "15",
             "caleories": "300 - 425 Kcal",
+            "shop": "cafe",
             "image": { "fields": {"file": { "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG" } } }
         }
     },
@@ -362,6 +396,7 @@ var newMenu = [
             "title": "Notebooks",
             "category": "Stationery",
             "price": "40",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/1192/7528/collections/papergrid.jpg?v=1625385205" } } }
         }
     },
@@ -371,6 +406,7 @@ var newMenu = [
             "title": "Pens",
             "category": "Stationery",
             "price": "10",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://luxor.in/media/catalog/product/cache/1d33a401d7d4f49c41930c20a2e836a7/9/0/9000030188_0_1.jpg" } } }
         }
     },
@@ -380,6 +416,7 @@ var newMenu = [
             "title": "Pencils ",
             "category": "Stationery",
             "price": "5",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://media.istockphoto.com/id/183019540/photo/pencils.jpg?s=170667a&w=0&k=20&c=BrNwXrPH5704DjP81eJw2m0-26skAgunzoQTzp_s5hY=" } } }
         }
     },
@@ -389,6 +426,7 @@ var newMenu = [
             "title": "Scissors",
             "category": "Stationery",
             "price": "50",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/718IrxlnEnL.jpg" } } }
         }
     },
@@ -398,6 +436,7 @@ var newMenu = [
             "title": "Calculator",
             "category": "Stationery",
             "price": "100",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/61iy52iEgDL.jpg" } } }
         }
     },
@@ -407,6 +446,7 @@ var newMenu = [
             "title": "Fevicol",
             "category": "Stationery",
             "price": "20",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/41bV0vfIroL.jpg" } } }
         }
     },
@@ -416,6 +456,7 @@ var newMenu = [
             "title": "Cello Tape ",
             "category": "Stationery",
             "price": "80",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/41uz0bGEEJL.jpg" } } }
         }
     },
@@ -425,6 +466,7 @@ var newMenu = [
             "title": "Eraser",
             "category": "Stationery",
             "price": "5",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://www.towntokri.com/wp-content/uploads/2021/04/Apsara-NonDust-Eraser-mrp5.jpg" } } }
         }
     },
@@ -434,6 +476,7 @@ var newMenu = [
             "title": "A-4 paper",
             "category": "Stationery",
             "price": "1",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://tiimg.tistatic.com/fp/1/007/609/white-a4-size-copier-paper-used-in-printing-and-photocopy-662.jpg" } } }
         }
     },
@@ -443,6 +486,7 @@ var newMenu = [
             "title": "Files",
             "category": "Stationery",
             "price": "20",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/51lWLp1kfmL._AC_UF1000,1000_QL80_.jpg" } } }
         }
     },
@@ -452,6 +496,7 @@ var newMenu = [
             "title": "Sharpener",
             "category": "Stationery",
             "price": "5",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://5.imimg.com/data5/SELLER/Default/2020/10/CD/YQ/DH/109286633/pencil-sharpener-500x500.jpg" } } }
         }
     },
@@ -461,6 +506,7 @@ var newMenu = [
             "title": "Scale",
             "category": "Stationery",
             "price": "15",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40126493-3_2-faber-castell-scale-plastic.jpg" } } }
         }
     },
@@ -470,6 +516,7 @@ var newMenu = [
             "title": "Dairy Milk",
             "category": "Chocolates",
             "price": "20",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/0579/0829/7801/products/001_3.png?v=1665512917&width=1946" } } }
         }
     },
@@ -479,6 +526,7 @@ var newMenu = [
             "title": "Choki-Choki",
             "category": "Chocolates",
             "price": "5",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://90skidsindia.com/image/cache/catalog/candy1/images%20(33)-1000x1000.jpeg" } } }
         }
     },
@@ -488,6 +536,7 @@ var newMenu = [
             "title": "Mentos-Strawberry",
             "category": "Chocolates",
             "price": "1",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/534e242617dd650b4195be84b903ec825ae6b325-3000x1759.png" } } }
         }
     },
@@ -497,6 +546,7 @@ var newMenu = [
             "title": "Mentos-Orange",
             "category": "Chocolates",
             "price": "1",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/4e2a0475429db608d8e5024c9c9d1a435a144ec8-3000x1759.png" } } }
         }
     },
@@ -506,6 +556,7 @@ var newMenu = [
             "title": "Mentos-Mint",
             "category": "Chocolates",
             "price": "1",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/51bJvv1bKgL.jpg" } } }
         }
     },
@@ -515,6 +566,7 @@ var newMenu = [
             "title": "Tic-Tac",
             "category": "Chocolates",
             "price": "10",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://www.tictac.com/us/sites/tictac30_us/files/styles/700x700_scaled/public/2022-10/freshmint.png" } } }
         }
     },
@@ -524,6 +576,7 @@ var newMenu = [
             "title": "Double Mint",
             "category": "Chocolates",
             "price": "10",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://etimg.etb2bimg.com/thumb/msid-53853883,width-1200,resizemode-4/.jpg" } } }
         }
     },
@@ -533,6 +586,7 @@ var newMenu = [
             "title": "Munch",
             "category": "Chocolates",
             "price": "5",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://www.nestle.in/sites/g/files/pydnoa451/files/MUNCH-Rs-5-270x295.jpg" } } }
         }
     },
@@ -542,6 +596,7 @@ var newMenu = [
             "title": "Maha Munch",
             "category": "Chocolates",
             "price": "10",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://media.mastbazaar.com/catalog/product/cache/f1d278c568328400bf84bb90ab99967c/8/4/846b17547cdad4dab8493023cbe46b3f80b0a0a91cd3d6221671646215eb180f.jpeg" } } }
         }
     },
@@ -551,6 +606,7 @@ var newMenu = [
             "title": "Gems",
             "category": "Chocolates",
             "price": "10",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruWllgd0x2NxbSqNPIZWBCRQE_IX0UxOmxUol-FfQ7hsticCYqYiJZE0aAzFOTXGSntY&usqp=CAU" } } }
         }
     },
@@ -560,6 +616,7 @@ var newMenu = [
             "title": "Perk",
             "category": "Chocolates",
             "price": "15",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://www.jiomart.com/images/product/original/491074314/cadbury-perk-twin-wafer-chocolate-bar-28-g-product-images-o491074314-p491074314-0-202203171001.jpg" } } }
         }
     },
@@ -569,6 +626,7 @@ var newMenu = [
             "title": "Lab Record",
             "category": "Lab Record",
             "price": "105",
+            "shop": "store",
             "image": { "fields": { "file": { "url": "https://5.imimg.com/data5/SELLER/Default/2021/7/JJ/IA/BF/133103611/record-notebook-500x500.jpg" } } }
         }
     },        
