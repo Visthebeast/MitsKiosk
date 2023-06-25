@@ -7,8 +7,6 @@
 
     <title>User details </title>
 
-   
-    
     <!-- Page Icon -->
     <link rel="Micosoft icon" href="https://mgmits.ac.in/wp-content/themes/muthoot/images/MITS-LOGO-NEW.jpeg">
     
@@ -29,10 +27,63 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
 </head>    
 <body>
+    <header class="navbar">
+        <div class="container flex text-center jc-ai-center">
+            <!-- Left Navigation -->
+            <div class="site-title flex align-item-center">
+                <div>
+                    <a href="index.html">
+                        <h1>
+                            <span class="clr-red">MITS</span>
+                            <span class="clr-white">Kiosk</span>
+                        </h1>
+                    </a>
+                </div>
+                <!-- Toggle Bars -->
+                <div class="toggle-bars mybar">
+                    <div class="bars bar-1"></div>
+                    <div class="bars bar-2"></div>
+                    <div class="bars bar-3"></div>
+                </div>
+            </div>
+            <!-- Right Navigation -->
+            <nav class="site-nav flex left-nav align-item-center">
+                <ul class="flex">
+                    <li><a href="order.html">Cafe Orders</a></li>
+                    <li><a href="Storeorder.html">Store Orders</a></li>
+                    <li><a href="admin-side.html">Product Management</a></li>
+                    <button class="btn" id="logout" style="padding: 10px 20px">
+                        Log Out
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Mobile Navbar -->
+    <header class="mob-navbar">
+        <nav class="nav container">
+            <ul class="mob-ul">
+                <li><a href="orders.html">Orders</a></li>
+                <li><a href="admin-side.html">Product Management</a></li>
+                <button class="btn" id="logout" style="padding: 10px 20px">
+                    Log Out
+                </button>
+            </ul>
+        </nav>
+    </header>
+
     <section class="product-management">
         <div class="container-min grid">
         <div class="title md text-center">User Details</div>
         </div>
+        <section class="user-list">
+            <div class="container">
+                <ul id="userList"></ul>
+            </div>
+        </section>
     </section>
+    <script src="assets/js/functioning.js"></script>
+    <script src="assets/js/users.js"></script>
 </body>
 </html>

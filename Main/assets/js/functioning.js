@@ -27,9 +27,6 @@ const firebaseConfig = {
   
   // SignUp Form ID's -
   const myForm = document.getElementById("main-form");
-  const googleSignUp = document.querySelectorAll("#google-signUpIn");
-  const githubSignUp = document.querySelectorAll("#github-signUpIn");
-  const facebookSignUp = document.querySelectorAll("#facebook-signUpIn");
   
   // SignIn Form ID's -
   const signInForm = document.getElementById('signIn-form');
@@ -68,55 +65,61 @@ const firebaseConfig = {
       }
     }
   
-    // Google SignUp Method -
-    googleSignUpIn(){
-      var provider = new firebase.auth.GoogleAuthProvider();
-      firebase
-        .auth()
-        .signInWithPopup(provider)
-        .then((result) => {
-          console.log(result.email);
-          this.notifyUser();
-          this.firebaseAuthRedirect();
-        })
-        .catch((error) => Swal.fire("" + error));
-    }
+    // // Google SignUp Method -
+    // googleSignUpIn(){
+    //   var provider = new firebase.auth.GoogleAuthProvider();
+    //   firebase
+    //     .auth()
+    //     .signInWithPopup(provider)
+    //     .then((result) => {
+    //       console.log(result.email);
+    //       this.notifyUser();
+    //       this.firebaseAuthRedirect();
+    //     })
+    //     .catch((error) => Swal.fire("" + error));
+    // }
   
-    // FaceBook SignUp Method -
-    facebookSignUpIn(){
-      var provider = new firebase.auth.FacebookAuthProvider();
-      provider.addScope("email, user_birthday");
+    // // FaceBook SignUp Method -
+    // facebookSignUpIn(){
+    //   var provider = new firebase.auth.FacebookAuthProvider();
+    //   provider.addScope("email, user_birthday");
   
-      firebase
-        .auth()
-        .signInWithPopup(provider)
-        .then((result) => {
-          this.notifyUser();
-          this.firebaseAuthRedirect();
-        })
-        .catch((error) => Swal.fire("" + error));
-    }
+    //   firebase
+    //     .auth()
+    //     .signInWithPopup(provider)
+    //     .then((result) => {
+    //       this.notifyUser();
+    //       this.firebaseAuthRedirect();
+    //     })
+    //     .catch((error) => Swal.fire("" + error));
+    // }
   
-    // GitHub SignUp Method -
-    githubSignUpIn(){
-      var provider = new firebase.auth.GithubAuthProvider();
-      provider.addScope("email, password");
+    // // GitHub SignUp Method -
+    // githubSignUpIn(){
+    //   var provider = new firebase.auth.GithubAuthProvider();
+    //   provider.addScope("email, password");
 
-      firebase
-        .auth()
-        .signInWithPopup(provider)
-        .then((result) => {
-          this.notifyUser();
-          this.firebaseAuthRedirect();
-        })
-        .catch((error) => Swal.fire("" + error));
-    }
-
+    //   firebase
+    //     .auth()
+    //     .signInWithPopup(provider)
+    //     .then((result) => {
+    //       this.notifyUser();
+    //       this.firebaseAuthRedirect();
+    //     })
+    //     .catch((error) => Swal.fire("" + error));
+    // }
     static authRedirecting() {
       window.setTimeout(() => {
-        window.location.replace('client-side.html');
-      }, 500)
+        const user = firebase.auth().currentUser;
+        const adminUID = 'Cw5xmVcikkWdkOJuf8tyPWSWU1W2';
+        if (user && user.uid === adminUID) {
+          window.location.replace('http://127.0.0.1:5502/admin-side.html');
+        } else {
+          window.location.replace('client-side.html');
+        }
+      }, 500);
     }
+
 
     // Notify User
     notifyUser() {
@@ -127,11 +130,21 @@ const firebaseConfig = {
         })
       },1250)
     }
+    
+    
 
     firebaseAuthRedirect(){
-      firebase.auth().onAuthStateChanged(function(user) {
-        // If user is registered -
-        user ?  window.location.replace('client-side.html') : console.log('none');
+
+      firebase.auth().onAuthStateChanged(function (user) {
+        if (user) {
+          //admin login
+          if (user.uid === 'Cw5xmVcikkWdkOJuf8tyPWSWU1W2') {
+            user ? window.location.replace('admin-side.html') : console.log('none');
+          } else {
+            // Regular user logged in, handle accordingly
+            user ? window.location.replace('client-side.html') : console.log('none');
+          }
+        }
       });
     }
   }
@@ -180,7 +193,7 @@ const firebaseConfig = {
 
   // When HTML & Other code is done -
   document.addEventListener("DOMContentLoaded", () => {
-    // Sign Up Mehtods -
+    // Sign Up Methods -
     const signUp = new signUpMethods();
 
     // Main Sign Up Form
@@ -192,34 +205,34 @@ const firebaseConfig = {
     }
 
     // Google Sign Up Form
-    if (googleSignUp) {
-      googleSignUp.forEach(element => {
-        element.addEventListener("click", (e) => {
-          e.preventDefault();
-          signUp.googleSignUpIn();
-        });
-      });
-    }
+    // if (googleSignUp) {
+    //   googleSignUp.forEach(element => {
+    //     element.addEventListener("click", (e) => {
+    //       e.preventDefault();
+    //       signUp.googleSignUpIn();
+    //     });
+    //   });
+    // }
 
-    // GitHub Sign Up Form
-    if (githubSignUp) {
-      githubSignUp.forEach(element => {
-        element.addEventListener("click", (e) => {
-        e.preventDefault();
-        signUp.githubSignUpIn();
-      })
-    });
-    }
+    // // GitHub Sign Up Form
+    // if (githubSignUp) {
+    //   githubSignUp.forEach(element => {
+    //     element.addEventListener("click", (e) => {
+    //     e.preventDefault();
+    //     signUp.githubSignUpIn();
+    //   })
+    // });
+    // }
 
-    // Facebook Sign Up Form
-    if (facebookSignUp) {
-      facebookSignUp.forEach(element => {
-        element.addEventListener("click", (e) => {
-          e.preventDefault();
-          signUp.facebookSignUpIn();
-        });
-      });
-    }
+    // // Facebook Sign Up Form
+    // if (facebookSignUp) {
+    //   facebookSignUp.forEach(element => {
+    //     element.addEventListener("click", (e) => {
+    //       e.preventDefault();
+    //       signUp.facebookSignUpIn();
+    //     });
+    //   });
+    // }
 
     // Sign In Methods -
     const signIn = new signInMethods();

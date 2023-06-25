@@ -137,7 +137,7 @@ removeButton.addEventListener('click', function() {
   titleInput.value = '';
 });
 
-// Rest of your code goes here...
+
 /*
   // Function to display orders
   function setOrderDetails() {
