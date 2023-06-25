@@ -936,6 +936,11 @@ document.addEventListener('DOMContentLoaded', () =>{
     ClientDataFlow(addToCartBtn);
 });
 
+
+if (window.location.href === 'user-orders.html') {
+    setOrderDetails(trimedEmailID)
+    console.log('heerererer')
+}
 // When User Loggin and Do Stuff
 function ClientDataFlow(addToCartBtn){
     // When User Is logged In
@@ -958,6 +963,7 @@ function ClientDataFlow(addToCartBtn){
                         addItem.push(userCart[i])
                         // Disable already added items
                         if (window.location != 'user-orders.html'){
+                            //console.log(i)
                             addToCartBtn[userCart[i].FoodID-1].disabled = true;
                             addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart';
                         }
@@ -1012,10 +1018,7 @@ function ClientDataFlow(addToCartBtn){
             })
 
             // Shows Orders
-            if (window.location.href === 'user-orders.html'){
-                setOrderDetails(trimedEmailID)
-                console.log('heerererer')
-            }
+            
         } else {
         console.log('no user logged in');
         }

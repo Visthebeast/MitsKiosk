@@ -456,4 +456,5 @@ function setOrderDetails(trimedEmailID){
             console.log('no orders');
         }
     })
+    setOrderDetails();
 }
