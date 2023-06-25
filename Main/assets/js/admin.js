@@ -14,12 +14,11 @@ const removeitemBtn = document.querySelector("#remove-item-menu");
 const additemContainer = document.querySelector(".add-cont");
 const removeitemContainer = document.querySelector(".remove-cont");
 
-
 // Admin Side URL
 const adminSRC = "http://127.0.0.1:5502/admin-side.html";
 
 console.log(newMenu); // Access the imported array from `main.js`
-console.log(newStore)
+console.log(newStore);
 
 // --- Admin Side ---
 if (adminSRC === window.location.href) {
@@ -139,7 +138,7 @@ removeButton.addEventListener('click', function() {
 });
 
 // Rest of your code goes here...
-
+/*
   // Function to display orders
   function setOrderDetails() {
     const orderTable = document.getElementById('order-table');
@@ -201,9 +200,14 @@ removeButton.addEventListener('click', function() {
         }
       });
   }
+*/
+    // Function to add a new product to the menu
+    
+
 
   // Call the function to display all orders
-  setOrderDetails();
+  
+  //setOrderDetails();
 
 }
 }

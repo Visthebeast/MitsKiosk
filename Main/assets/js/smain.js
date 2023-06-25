@@ -219,19 +219,19 @@ var newStore = [
 ]
 
 // Menu Section -
-const menuSection = document.querySelector('.menu-section');
+const smenuSection = document.querySelector('.menu-section');
 // Menu Filter Buttons -
-const menuFilterBtns = document.querySelectorAll('#menu-filter');
+const smenuFilterBtns = document.querySelectorAll('#menu-filter');
 
 function filtering(addToCartBtn){
     // Menu Items Filteration
-    menuFilterBtns.forEach( btn => {
+    smenuFilterBtns.forEach( btn => {
         btn.addEventListener('click', (e)=>{
             const Category = e.currentTarget.dataset.id;
 
             // Current Btn Indication - 
             btn.classList.add('current')
-            menuFilterBtns.forEach(i =>{
+            smenuFilterBtns.forEach(i =>{
                 if(i.dataset.id != Category){i.classList.remove('current')}
             })
 
@@ -280,27 +280,27 @@ function displayMenuItems(menuItems){
     });
 
     displayMenu = displayMenu.join('');
-    if (menuSection) {menuSection.innerHTML = displayMenu;}
+    if (smenuSection) {smenuSection.innerHTML = displayMenu;}
 }
 
 // ------------------ Menu.html Menu Cards END ------------------------
 
 // ---------------- Cart Functioning ----------------
 // Inside Cart Container
-const cartItemsContainer = document.querySelector('.cart-items-container');
+const scartItemsContainer = document.querySelector('.cart-items-container');
 // Nav Cart Items Indicator
-const cartItems = document.querySelector('.cart-items');
+const scartItems = document.querySelector('.cart-items');
 // Total Bill
-const cartTotal = document.querySelector('.cart-total');
+const scartTotal = document.querySelector('.cart-total');
 
 // Clear Cart Btn
-const clearCart = document.querySelector('.clear-cart');
+const sclearCart = document.querySelector('.clear-cart');
 
 // Clear Cart Btn
-const checkOutBtn = document.querySelector('.check-out');
+const scheckOutBtn = document.querySelector('.check-out');
 
 // Nav Cart btn Values
-const cartValues = document.querySelectorAll('#cart-values');
+const scartValues = document.querySelectorAll('#cart-values');
 
 // Item Quantity -
 var quantity = 1;
@@ -334,7 +334,7 @@ function showUserCart(addItem, trimedEmailID){
     let No_of_Item = 0;
   
     // Remove All Stored Previous items
-    cartItemsContainer.innerHTML = ''
+    scartItemsContainer.innerHTML = ''
 
     addItem.forEach(item => {
         let id = item.FoodID - 1;
@@ -361,7 +361,7 @@ function showUserCart(addItem, trimedEmailID){
                 <i class="fas fa-chevron-down" data-id=${id+1}></i>
             </div>
         ` 
-        cartItemsContainer.appendChild(div);
+        scartItemsContainer.appendChild(div);
     })
 
     // Set Total Amount Value in Firebase DB & UI-
@@ -370,8 +370,8 @@ function showUserCart(addItem, trimedEmailID){
     .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
     .update({Details: addItem, Total_Amount: totalAmount})
     // UI
-    cartTotal.innerHTML = totalAmount;
-    cartValues.forEach(values=>{values.innerHTML = No_of_Item;})
+    scartTotal.innerHTML = totalAmount;
+    scartValues.forEach(values=>{values.innerHTML = No_of_Item;})
 
     // If user orders than send cart to orders
     userCart = { Details: addItem, Total_Amount: totalAmount }
@@ -381,7 +381,7 @@ function showUserCart(addItem, trimedEmailID){
 // User Operations in Cart
 function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
     // In Cart Buttons & Functionalities -
-    cartItemsContainer.addEventListener('click', event => {
+    scartItemsContainer.addEventListener('click', event => {
         // When Remove Btn is clicked
         if (event.target.classList.contains('remove-item')){
             let removeBtn = event.target;
@@ -397,9 +397,9 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
                         addToCartBtn[item.FoodID-1].innerHTML = 'Add to Cart';
                     }
                     if (addItem.length === 0){
-                        cartItemsContainer.innerHTML = '';
-                        cartValues.forEach(values => { values.innerHTML = '0';})
-                        cartTotal.innerHTML = '0';
+                        scartItemsContainer.innerHTML = '';
+                        scartValues.forEach(values => { values.innerHTML = '0';})
+                        scartTotal.innerHTML = '0';
                         
                         // Remove in Firebase DB
                         firebase
@@ -412,8 +412,8 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
 
             // If last element in cart if removed - 
             if (addItem.length === 0){ 
-                cartItemsContainer.innerHTML = '';
-                cartValues.forEach(values => { values.innerHTML = '0';})
+                scartItemsContainer.innerHTML = '';
+                scartValues.forEach(values => { values.innerHTML = '0';})
             }
             
             // Remove (i.e update) In Firebase DB
@@ -457,9 +457,9 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
                         // Update Array -
                         addItem.splice(addItem.indexOf(item) ,1);
                         if (addItem.length === 0){
-                            cartItemsContainer.innerHTML = '';
-                            cartValues.forEach(values => { values.innerHTML = '0';})
-                            cartTotal.innerHTML = '0';
+                            scartItemsContainer.innerHTML = '';
+                            scartValues.forEach(values => { values.innerHTML = '0';})
+                            scartTotal.innerHTML = '0';
                             // Remove in Firebase DB
                             firebase
                             .database()
@@ -481,9 +481,9 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
 
 // Remove all items in cart
 function clearUserCart(addItem, addToCartBtn, trimedEmailID){
-    cartItemsContainer.innerHTML = '';
-    cartValues.forEach(values => { values.innerHTML = '0';})
-    cartTotal.innerHTML = '0';
+    scartItemsContainer.innerHTML = '';
+    scartValues.forEach(values => { values.innerHTML = '0';})
+    scartTotal.innerHTML = '0';
     if ( window.location != 'store-user-orders.html'){
         // Enable removed items btn
         addItem.forEach(item=>{
@@ -585,20 +585,20 @@ function ClientDataFlow(addToCartBtn){
             }
 
             // Remove all items from Cart -
-            clearCart.addEventListener('click', ()=>{
+            sclearCart.addEventListener('click', ()=>{
                 clearUserCart(addItem, addToCartBtn, trimedEmailID);
                 addItem = []
             })
 
             // User Check Out's -
-            checkOutBtn.addEventListener('click', ()=>{
+                n.addEventListener('click', ()=>{
                 // Check If Cart is Empty or not -
                 if (addItem.length != 0){
                     // Order
                     let userCart = showUserCart(addItem, trimedEmailID);
                     userOrderManagement(trimedEmailID, userCart, userEmailID);
                     // Empty User Cart
-                    cartItemsContainer.innerHTML = '';
+                    scartItemsContainer.innerHTML = '';
                     clearUserCart(addItem, addToCartBtn, trimedEmailID);
                     addItem = []
                     Swal.fire({
