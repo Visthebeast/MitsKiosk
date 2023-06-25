@@ -27,6 +27,9 @@ function displayOrderDetails(userEmail) {
             for (const orderKey in userOrders) {
                 if (userOrders.hasOwnProperty(orderKey)) {
                     const order = userOrders[orderKey];
+                    console.log(orderKey)
+                    const orderId = order.Order_ID;
+                    //console.log(order)
                     const total = order.User_Cart.Total_Amount;
                     const userCart = order.User_Cart.Details;
                     // Create the order table
@@ -71,6 +74,14 @@ function displayOrderDetails(userEmail) {
                     // Append the order table to the order details container
                     orderDetails.appendChild(orderTable);
 
+                    // Create the order ID div
+                    const orderIdDiv = document.createElement('div');
+                    orderIdDiv.classList.add('order-id');
+                    orderIdDiv.textContent = 'Order ID: ' + orderId;
+
+                    // Append the order ID div to the order details container
+                    orderDetails.appendChild(orderIdDiv);
+
                     // Create the subtotal div
                     const subtotalDiv = document.createElement('div');
                     subtotalDiv.classList.add('bold');
@@ -94,3 +105,14 @@ function displayOrderDetails(userEmail) {
         }
     });
 }
+
+
+// function generateHash(input) {
+//     // Use a hash function (e.g., MD5 or SHA-1) to generate a hash value from the input
+//     // Here's an example using the MD5 algorithm with a library called `crypto-js`
+//     const hash = CryptoJS.SHA1(input).toString();
+
+
+//     // Return the hash value
+//     return hash;
+// }

@@ -26,6 +26,7 @@ function displayOrderDetails(userEmail) {
             for (const orderKey in userOrders) {
                 if (userOrders.hasOwnProperty(orderKey)) {
                     const order = userOrders[orderKey];
+                    const orderId = order.Order_ID;
                     const total = order.User_Cart.Total_Amount;
                     const userCart = order.User_Cart.Details;
                     // Create the order table
@@ -41,7 +42,6 @@ function displayOrderDetails(userEmail) {
             <th>Amount</th>
             <th>Total</th>
           `;
-
                     let i = 1;
 
                     // Loop through each item in the cart
@@ -69,6 +69,14 @@ function displayOrderDetails(userEmail) {
 
                     // Append the order table to the order details container
                     orderDetails.appendChild(orderTable);
+
+                    // Create the order ID div
+                    const orderIdDiv = document.createElement('div');
+                    orderIdDiv.classList.add('order-id');
+                    orderIdDiv.textContent = 'Order ID: ' + orderId;
+
+                    // Append the order ID div to the order details container
+                    orderDetails.appendChild(orderIdDiv);
 
                     // Create the subtotal div
                     const subtotalDiv = document.createElement('div');

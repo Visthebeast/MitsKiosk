@@ -387,14 +387,6 @@ var newMenu = [
     
 ]
 
-//export { newMenu };
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const Category = localStorage.getItem('Category');
-//     // Use the retrieved Category value for any further processing
-//     // Rest of your code
-// });
-
 // Menu Section -
 const menuSection = document.querySelector('.menu-section');
 // Menu Filter Buttons -
@@ -431,12 +423,6 @@ function filtering(addToCartBtn){
         })
     })
 }
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     const Category = localStorage.getItem('Category');
-//     // Use the retrieved Category value for any further processing
-//     // Rest of your code
-// });
 
 
 // Function To Create Menu Cards & Add to HTML
@@ -710,6 +696,7 @@ function userOrderManagement (trimedEmailID , userCart, userEmailID){
         Delivery_Status: false,
         Order_Date: orderDate,
         Order_Time: orderTime,
+        Order_ID: generateOrderID(),
     }
 
     // Add Current Order To User Orders list 
@@ -726,13 +713,6 @@ console.log(pageName);
 
 // Main.js When Content Loaded
 document.addEventListener('DOMContentLoaded', () =>{
-    // Client UI
-    // if (pageName == "/client-side.html"){
-    //     displayMenuItems(newMenu.slice(0, 35));
-    // }
-    // else if (pageName == "/Store.html"){
-    //     displayMenuItems(newMenu.slice(36));
-    // }
     displayMenuItems(newMenu)
     showUserCart(addItem);
     const addToCartBtn = document.querySelectorAll('#add-to-cart-btn');
@@ -825,4 +805,14 @@ function ClientDataFlow(addToCartBtn){
         console.log('no user logged in');
         }
     });
+}
+
+//random order id generator
+function generateOrderID() {
+    var characters = "abcdefghijklmnopqrstuvwxyz0123456789";
+    var orderID = "";
+    for (var i = 0; i < 5; i++) {
+        orderID += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return orderID;
 }

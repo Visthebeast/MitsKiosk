@@ -47,6 +47,7 @@ function displayOrderDetails(userEmail, userOrders, orderDetails) {
     for (const orderKey in userOrders) {
         if (userOrders.hasOwnProperty(orderKey)) {
             const order = userOrders[orderKey];
+            const orderID = order.Order_ID;
             const total = order.User_Cart.Total_Amount;
             const userCart = order.User_Cart.Details;
 
@@ -90,9 +91,13 @@ function displayOrderDetails(userEmail, userOrders, orderDetails) {
                 deleteOrder(userEmail, userOrders, orderKey, orderDetails);
             });
 
+            const orderIDDiv = document.createElement('div');
+            orderIDDiv.textContent = 'Order ID: ' + orderID;
+
             const orderTableWrapper = document.createElement('div');
             orderTableWrapper.classList.add('order-table-wrapper');
             orderTableWrapper.appendChild(orderTable);
+            orderTableWrapper.appendChild(orderIDDiv)
             orderTableWrapper.appendChild(orderDeliveredButton);
 
             orderDetails.appendChild(orderTableWrapper);

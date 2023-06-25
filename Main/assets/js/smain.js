@@ -522,6 +522,7 @@ function userOrderManagement (trimedEmailID , userCart, userEmailID){
         Delivery_Status: false,
         Order_Date: orderDate,
         Order_Time: orderTime,
+        Order_ID: generateOrderID(),
     }
 
     // Add Current Order To User Orders list 
@@ -624,4 +625,14 @@ function ClientDataFlow(addToCartBtn){
         console.log('no user logged in');
         }
     });
+}
+
+//random order id generator
+function generateOrderID() {
+    var characters = "abcdefghijklmnopqrstuvwxyz0123456789";
+    var orderID = "";
+    for (var i = 0; i < 5; i++) {
+        orderID += characters.charAt(Math.floor(Math.random() * characters.length));
+    }
+    return orderID;
 }

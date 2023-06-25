@@ -23,7 +23,7 @@ console.log(newStore);
 // --- Admin Side ---
 if (adminSRC === window.location.href) {
   console.log("admin side");
-  // Admin Management Btns
+
   addProductBtn.addEventListener("click", () => {
     addContainer.classList.toggle("show-container");
     removeContainer.classList.remove("show-container");
@@ -38,8 +38,6 @@ if (adminSRC === window.location.href) {
       removeitemContainer.classList.remove("show-container");
     });
     console.log('JavaScript file loaded.');
-
-// Rest of your code goes here...
 
 
   // Admin Management Btns
@@ -65,8 +63,6 @@ addButton.addEventListener('click', function() {
     return;
   }
 
-  // Add the product to the menu (your implementation here)
-
   // Show success message
   Swal.fire('Success', 'Product added to menu successfully!', 'success');
 
@@ -85,8 +81,6 @@ removeButton.addEventListener('click', function() {
     Swal.fire('Error', 'Please enter the title of the food to remove.', 'error');
     return;
   }
-
-  // Remove the product from the menu (your implementation here)
 
   // Show success message
   Swal.fire('Success', 'Product removed from menu successfully!', 'success');
@@ -101,13 +95,11 @@ addButton.addEventListener('click', function() {
   var priceInput = document.getElementById('add-price');
   var categorySelect = document.getElementById('add-category');
 
-  // Perform validation on input fields
+  // Performing validation on input fields
   if (titleInput.value === '' || priceInput.value === '') {
     Swal.fire('Error', 'Please fill in all fields.', 'error');
     return;
   }
-
-  // Add the product to the menu (your implementation here)
 
   // Show success message
   Swal.fire('Success', 'Product added to menu successfully!', 'success');
@@ -128,7 +120,6 @@ removeButton.addEventListener('click', function() {
     return;
   }
 
-  // Remove the product from the menu (your implementation here)
 
   // Show success message
   Swal.fire('Success', 'Product removed from menu successfully!', 'success');
