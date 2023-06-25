@@ -629,8 +629,18 @@ function filtering(addToCartBtn){
 //     // Rest of your code
 // });
 // Function To Create Menu Cards & Add to HTML
+var pageName = window.location.pathname;
+console.log(pageName);
 function displayMenuItems(menuItems){
-    let displayMenu = menuItems.map(function(item){
+    let startIndex = 0;
+    let endIndex = menuItems.length;
+
+    if (pageName === "/Client-side.html") {
+        endIndex = Math.min(35, menuItems.length);
+    } else if (pageName === "/Store.html") {
+        startIndex = 36;
+    }
+    let displayMenu = menuItems.slice(startIndex, endIndex).map(function (item) {
         return `
         <article class="menu-item">
             <img src="${item.fields.image.fields.file.url}" loading="lazy" alt="Product image">
@@ -912,12 +922,13 @@ console.log(pageName);
 // Main.js When Content Loaded
 document.addEventListener('DOMContentLoaded', () =>{
     // Client UI
-    if (pageName == "/client-side.html"){
-        displayMenuItems(newMenu.slice(0, 35));
-    }
-    else if (pageName == "/Store.html"){
-        displayMenuItems(newMenu.slice(36));
-    }
+    // if (pageName == "/client-side.html"){
+    //     displayMenuItems(newMenu.slice(0, 35));
+    // }
+    // else if (pageName == "/Store.html"){
+    //     displayMenuItems(newMenu.slice(36));
+    // }
+    displayMenuItems(newMenu)
     showUserCart(addItem);
     const addToCartBtn = document.querySelectorAll('#add-to-cart-btn');
     // Menu Filtering items

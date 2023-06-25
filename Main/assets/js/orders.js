@@ -641,8 +641,8 @@ function displayOrderDetails(userEmail, userOrders, orderDetails) {
 
             userCart.forEach((item) => {
                 const foodID = item.FoodID;
-                const foodItem = newMenu[foodID].fields.title;
-                const amount = newMenu[foodID].fields.price;
+                const foodItem = newMenu[foodID-1].fields.title;
+                const amount = newMenu[foodID-1].fields.price;
                 const quantity = item.Quantity;
                 const itemTotal = amount * quantity;
 
