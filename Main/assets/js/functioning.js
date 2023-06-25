@@ -1,15 +1,3 @@
-  // --- Authentication Part ---
-  // Your web app's Firebase configuration
-  // var firebaseConfig = {
-  //   apiKey: "AIzaSyDBn5GMIvsqhTPMVAeylq-I_2R8SSJYzmI",
-  //   authDomain: "js-login-form.firebaseapp.com",
-  //   projectId: "js-login-form",
-  //   storageBucket: "js-login-form.appspot.com",
-  //   messagingSenderId: "1039987076182",
-  //   appId: "1:1039987076182:web:e51f940647b55c0cd7dff7",
-  //  };
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
 
 const firebaseConfig = {
   apiKey: "AIzaSyDyIZZBAfHB6bhkStEwFyoHU9hLgVydtsA",
