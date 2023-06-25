@@ -384,253 +384,6 @@ var newMenu = [
             "image": { "fields": {"file": { "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG" } } }
         }
     },
-
-
-
-    //store items
-
-
-    {
-        "sys": { "id": "36" },
-        "fields": {
-            "title": "Notebooks",
-            "category": "Stationery",
-            "price": "40",
-            "caleories": "300 - 425 Kcal",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/1192/7528/collections/papergrid.jpg?v=1625385205" } } }
-        }
-    },
-    {
-        "sys": { "id": "37" },
-        "fields": {
-            "title": "Pens",
-            "category": "Stationery",
-            "price": "10",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://luxor.in/media/catalog/product/cache/1d33a401d7d4f49c41930c20a2e836a7/9/0/9000030188_0_1.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "38" },
-        "fields": {
-            "title": "Pencils ",
-            "category": "Stationery",
-            "price": "5",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://media.istockphoto.com/id/183019540/photo/pencils.jpg?s=170667a&w=0&k=20&c=BrNwXrPH5704DjP81eJw2m0-26skAgunzoQTzp_s5hY=" } } }
-        }
-    },
-    {
-        "sys": { "id": "39" },
-        "fields": {
-            "title": "Scissors",
-            "category": "Stationery",
-            "price": "50",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/718IrxlnEnL.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "40" },
-        "fields": {
-            "title": "Calculator",
-            "category": "Stationery",
-            "price": "100",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/61iy52iEgDL.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "41" },
-        "fields": {
-            "title": "Fevicol",
-            "category": "Stationery",
-            "price": "20",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/41bV0vfIroL.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "42" },
-        "fields": {
-            "title": "Cello Tape ",
-            "category": "Stationery",
-            "price": "80",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/41uz0bGEEJL.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "43" },
-        "fields": {
-            "title": "Eraser",
-            "category": "Stationery",
-            "price": "5",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://www.towntokri.com/wp-content/uploads/2021/04/Apsara-NonDust-Eraser-mrp5.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "44" },
-        "fields": {
-            "title": "A-4 paper",
-            "category": "Stationery",
-            "price": "1",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://tiimg.tistatic.com/fp/1/007/609/white-a4-size-copier-paper-used-in-printing-and-photocopy-662.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "45" },
-        "fields": {
-            "title": "Files",
-            "category": "Stationery",
-            "price": "20",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/51lWLp1kfmL._AC_UF1000,1000_QL80_.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "46" },
-        "fields": {
-            "title": "Sharpener",
-            "category": "Stationery",
-            "price": "5",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://5.imimg.com/data5/SELLER/Default/2020/10/CD/YQ/DH/109286633/pencil-sharpener-500x500.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "47" },
-        "fields": {
-            "title": "Scale",
-            "category": "Stationery",
-            "price": "15",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://www.bigbasket.com/media/uploads/p/l/40126493-3_2-faber-castell-scale-plastic.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "48" },
-        "fields": {
-            "title": "Dairy Milk",
-            "category": "Chocolates",
-            "price": "20",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://cdn.shopify.com/s/files/1/0579/0829/7801/products/001_3.png?v=1665512917&width=1946" } } }
-        }
-    },
-    {
-        "sys": { "id": "49" },
-        "fields": {
-            "title": "Choki-Choki",
-            "category": "Chocolates",
-            "price": "5",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://90skidsindia.com/image/cache/catalog/candy1/images%20(33)-1000x1000.jpeg" } } }
-        }
-    },
-    {
-        "sys": { "id": "50" },
-        "fields": {
-            "title": "Mentos-Strawberry",
-            "category": "Chocolates",
-            "price": "1",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/534e242617dd650b4195be84b903ec825ae6b325-3000x1759.png" } } }
-        }
-    },
-    {
-        "sys": { "id": "51" },
-        "fields": {
-            "title": "Mentos-Orange",
-            "category": "Chocolates",
-            "price": "1",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://cdn.sanity.io/images/eqq3eum0/production/4e2a0475429db608d8e5024c9c9d1a435a144ec8-3000x1759.png" } } }
-        }
-    },
-    {
-        "sys": { "id": "52" },
-        "fields": {
-            "title": "Mentos-Mint",
-            "category": "Chocolates",
-            "price": "1",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://m.media-amazon.com/images/I/51bJvv1bKgL.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "53" },
-        "fields": {
-            "title": "Tic-Tac",
-            "category": "Chocolates",
-            "price": "10",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://www.tictac.com/us/sites/tictac30_us/files/styles/700x700_scaled/public/2022-10/freshmint.png" } } }
-        }
-    },
-    {
-        "sys": { "id": "54" },
-        "fields": {
-            "title": "Double Mint",
-            "category": "Chocolates",
-            "price": "10",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://etimg.etb2bimg.com/thumb/msid-53853883,width-1200,resizemode-4/.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "55" },
-        "fields": {
-            "title": "Munch",
-            "category": "Chocolates",
-            "price": "5",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://www.nestle.in/sites/g/files/pydnoa451/files/MUNCH-Rs-5-270x295.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "56" },
-        "fields": {
-            "title": "Maha Munch",
-            "category": "Chocolates",
-            "price": "10",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://media.mastbazaar.com/catalog/product/cache/f1d278c568328400bf84bb90ab99967c/8/4/846b17547cdad4dab8493023cbe46b3f80b0a0a91cd3d6221671646215eb180f.jpeg" } } }
-        }
-    },
-    {
-        "sys": { "id": "57" },
-        "fields": {
-            "title": "Gems",
-            "category": "Chocolates",
-            "price": "10",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruWllgd0x2NxbSqNPIZWBCRQE_IX0UxOmxUol-FfQ7hsticCYqYiJZE0aAzFOTXGSntY&usqp=CAU" } } }
-        }
-    },
-    {
-        "sys": { "id": "58" },
-        "fields": {
-            "title": "Perk",
-            "category": "Chocolates",
-            "price": "15",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://www.jiomart.com/images/product/original/491074314/cadbury-perk-twin-wafer-chocolate-bar-28-g-product-images-o491074314-p491074314-0-202203171001.jpg" } } }
-        }
-    },
-    {
-        "sys": { "id": "59" },
-        "fields": {
-            "title": "Lab Record",
-            "category": "Lab Record",
-            "price": "105",
-            "shop": "store",
-            "image": { "fields": { "file": { "url": "https://5.imimg.com/data5/SELLER/Default/2021/7/JJ/IA/BF/133103611/record-notebook-500x500.jpg" } } }
-        }
-    },        
     
 ]
 
@@ -670,13 +423,9 @@ function filtering(addToCartBtn){
                 if (Category != newMenu[id-1].fields.category){
                     menuItemClass.classList.add('display-none')
                 }
-                if (Category === 'cafeall' && newMenu[id-1].fields.shop == "cafe"){
+                if (Category === 'cafeall'){
                     menuItemClass.classList.remove('display-none')
                     menuItemClass.classList.add('show')
-                }
-                if (Category === 'storeall' && newMenu[id - 1].fields.shop == "store") {
-                    menuItemClass.classList.remove('display-none');
-                    menuItemClass.classList.add('show');
                 }
             })
         })
@@ -694,19 +443,15 @@ function filtering(addToCartBtn){
 var pageName = window.location.pathname;
 console.log(pageName);
 function displayMenuItems(menuItems) {
-    let displayMenu = menuItems
-        .map(function (item) {
-            if (
-                (pageName === "/client-side.html" && item.fields.shop === "cafe") ||
-                (pageName === "/Store.html" && item.fields.shop === "store")
-            ) {
-                return `
+    let displayMenu = menuItems.map(function (item) {
+        return `
         <article class="menu-item">
             <img src="${item.fields.image.fields.file.url}" loading="lazy" alt="Product image">
             <div class="item-info">
             <figure>
                 <h2>${item.fields.title}</h2>
                 <div class="item-category">${item.fields.category}</div>
+                
             </figure>
             <hr style="margin: 10px 0;">
             <div class="menu-cart-functionality">
@@ -718,15 +463,10 @@ function displayMenuItems(menuItems) {
             </div>
         </article>
         `;
-            } else {
-                return ''; // Empty string for items that should not be displayed
-            }
-        });
+    });
 
     displayMenu = displayMenu.join('');
-    if (menuSection) {
-        menuSection.innerHTML = displayMenu;
-    }
+    if (menuSection) { menuSection.innerHTML = displayMenu; }
 }
 
 
@@ -1023,16 +763,8 @@ function ClientDataFlow(addToCartBtn){
                         addItem.push(userCart[i])
                         // Disable already added items
                         if (window.location != 'user-orders.html'){
-                            if(pageName == "/client-side.html"){
-                                addToCartBtn[userCart[i].FoodID-1].disabled = true;
-                                console.log(userCart[i])
-                                addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart';
-                            }
-                            else if(pageName == "/Store.html" ){
-                                addToCartBtn[userCart[i+35].FoodID - 1].disabled = true;
-                                console.log(userCart[i+35].FoodID-1)
-                                addToCartBtn[userCart[i+35].FoodID - 1].innerHTML = 'In Cart';
-                            }
+                            addToCartBtn[userCart[i].FoodID - 1].disabled = true;
+                            addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart'; 
                         }
                     }
                     cartFunctionalities(addItem, trimedEmailID, addToCartBtn);

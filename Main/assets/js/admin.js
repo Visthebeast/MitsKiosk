@@ -19,7 +19,7 @@ const removeitemContainer = document.querySelector(".remove-cont");
 const adminSRC = "http://127.0.0.1:5502/admin-side.html";
 
 console.log(newMenu); // Access the imported array from `main.js`
-
+console.log(newStore)
 
 // --- Admin Side ---
 if (adminSRC === window.location.href) {

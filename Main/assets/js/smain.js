@@ -1,6 +1,6 @@
-var snewMenu = [
+var newStore = [
     {
-        "sys": { "id": "36" },
+        "sys": { "id": "1" },
         "fields": {
             "title": "Notebooks",
             "category": "Stationery",
@@ -9,7 +9,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "37" },
+        "sys": { "id": "2" },
         "fields": {
             "title": "Pens",
             "category": "Stationery",
@@ -18,7 +18,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "38" },
+        "sys": { "id": "3" },
         "fields": {
             "title": "Pencils ",
             "category": "Stationery",
@@ -27,7 +27,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "39" },
+        "sys": { "id": "4" },
         "fields": {
             "title": "Scissors",
             "category": "Stationery",
@@ -36,7 +36,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "40" },
+        "sys": { "id": "5" },
         "fields": {
             "title": "Calculator",
             "category": "Stationery",
@@ -45,7 +45,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "41" },
+        "sys": { "id": "6" },
         "fields": {
             "title": "Fevicol",
             "category": "Stationery",
@@ -54,7 +54,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "42" },
+        "sys": { "id": "7" },
         "fields": {
             "title": "Cello Tape ",
             "category": "Stationery",
@@ -63,7 +63,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "43" },
+        "sys": { "id": "8" },
         "fields": {
             "title": "Eraser",
             "category": "Stationery",
@@ -72,7 +72,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "44" },
+        "sys": { "id": "9" },
         "fields": {
             "title": "A-4 paper",
             "category": "Stationery",
@@ -81,7 +81,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "45" },
+        "sys": { "id": "10" },
         "fields": {
             "title": "Files",
             "category": "Stationery",
@@ -90,7 +90,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "46" },
+        "sys": { "id": "11" },
         "fields": {
             "title": "Sharpener",
             "category": "Stationery",
@@ -99,7 +99,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "47" },
+        "sys": { "id": "12" },
         "fields": {
             "title": "Scale",
             "category": "Stationery",
@@ -108,7 +108,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "48" },
+        "sys": { "id": "13" },
         "fields": {
             "title": "Dairy Milk",
             "category": "Chocolates",
@@ -117,7 +117,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "49" },
+        "sys": { "id": "14" },
         "fields": {
             "title": "Choki-Choki",
             "category": "Chocolates",
@@ -126,7 +126,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "50" },
+        "sys": { "id": "15" },
         "fields": {
             "title": "Mentos-Strawberry",
             "category": "Chocolates",
@@ -135,7 +135,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "51" },
+        "sys": { "id": "16" },
         "fields": {
             "title": "Mentos-Orange",
             "category": "Chocolates",
@@ -144,7 +144,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "52" },
+        "sys": { "id": "17" },
         "fields": {
             "title": "Mentos-Mint",
             "category": "Chocolates",
@@ -153,7 +153,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "53" },
+        "sys": { "id": "18" },
         "fields": {
             "title": "Tic-Tac",
             "category": "Chocolates",
@@ -162,7 +162,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "54" },
+        "sys": { "id": "19" },
         "fields": {
             "title": "Double Mint",
             "category": "Chocolates",
@@ -171,7 +171,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "55" },
+        "sys": { "id": "20" },
         "fields": {
             "title": "Munch",
             "category": "Chocolates",
@@ -180,7 +180,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "56" },
+        "sys": { "id": "21" },
         "fields": {
             "title": "Maha Munch",
             "category": "Chocolates",
@@ -189,7 +189,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "57" },
+        "sys": { "id": "22" },
         "fields": {
             "title": "Gems",
             "category": "Chocolates",
@@ -198,7 +198,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "58" },
+        "sys": { "id": "23" },
         "fields": {
             "title": "Perk",
             "category": "Chocolates",
@@ -207,7 +207,7 @@ var snewMenu = [
         }
     },
     {
-        "sys": { "id": "59" },
+        "sys": { "id": "24" },
         "fields": {
             "title": "Lab Record",
             "category": "Lab Record",
@@ -239,14 +239,14 @@ function filtering(addToCartBtn){
             addToCartBtn.forEach(item => {
                 let id = item.dataset.id;
                 let menuItemClass = item.parentElement.parentElement.parentElement.parentElement
-                if (Category === snewMenu[id-1].fields.category){
+                if (Category === newStore[id-1].fields.category){
                     menuItemClass.classList.remove('display-none')
                     menuItemClass.classList.add('show')
                 }
-                if (Category != snewMenu[id-1].fields.category){
+                if (Category != newStore[id-1].fields.category){
                     menuItemClass.classList.add('display-none')
                 }
-                if (Category === 'storeall' && id > 35) {
+                if (Category === 'storeall') {
                     menuItemClass.classList.remove('display-none');
                     menuItemClass.classList.add('show');
                 }
@@ -320,7 +320,7 @@ function foodItemCartBtn(data_id, quantity, trimedEmailID, addItem){
 
     if (addItem.length != 0){
         // Save to Firebase DB
-        firebase.database().ref('Users_Carts/' + trimedEmailID + '_Cart').set({
+        firebase.database().ref('Store_Users_Carts/' + trimedEmailID + '_Cart').set({
             Details: addItem,
             Total_Amount: 0
         });
@@ -342,7 +342,7 @@ function showUserCart(addItem, trimedEmailID){
         let quantity = item.Quantity;
         No_of_Item += quantity;
         // Menu Fields
-        let inMenu = newMenu[id].fields;
+        let inMenu = newStore[id].fields;
         // Total Amount Calc
         totalAmount = totalAmount + (quantity * inMenu.price);
         // Creating Cart Item in Cart
@@ -367,7 +367,7 @@ function showUserCart(addItem, trimedEmailID){
     // Set Total Amount Value in Firebase DB & UI-
     firebase
     .database()
-    .ref('Users_Carts/' + trimedEmailID + '_Cart')
+    .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
     .update({Details: addItem, Total_Amount: totalAmount})
     // UI
     cartTotal.innerHTML = totalAmount;
@@ -391,7 +391,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
             addItem.forEach(item => {
                 if (item.FoodID === id){ 
                     addItem.splice(addItem.indexOf(item) ,1) 
-                    if ( window.location != 'http://127.0.0.1:5502/user-orders.html'){
+                    if ( window.location != 'http://127.0.0.1:5502/store-user-orders.html'){
                         // Enable removed items btn
                         addToCartBtn[item.FoodID-1].disabled = false;
                         addToCartBtn[item.FoodID-1].innerHTML = 'Add to Cart';
@@ -404,7 +404,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
                         // Remove in Firebase DB
                         firebase
                         .database()
-                        .ref('Users_Carts/' + trimedEmailID + '_Cart')
+                        .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
                         .remove()
                     }
                 }
@@ -419,7 +419,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
             // Remove (i.e update) In Firebase DB
             firebase
             .database()
-            .ref('Users_Carts/' + trimedEmailID + '_Cart')
+            .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
             .update({Details: addItem})
         }
         // When Add Quantity is clicked
@@ -435,7 +435,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
             })
             // Update in Firebase DB
             firebase.database()
-            .ref('Users_Carts/' + trimedEmailID + '_Cart')
+            .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
             .update({ Details: addItem })
         }
         // When lower Quantity is clicked
@@ -448,7 +448,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
                 if (item.FoodID === id && item.Quantity >= 1){
                     item.Quantity -= 1;
                     if (item.Quantity === 0){
-                        if ( window.location != 'user-orders.html'){
+                        if ( window.location != 'store-user-orders.html'){
                             // Enable Buttons - so user can use them again
                             // Enable removed items btn
                             addToCartBtn[item.FoodID-1].disabled = false;
@@ -463,7 +463,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
                             // Remove in Firebase DB
                             firebase
                             .database()
-                            .ref('Users_Carts/' + trimedEmailID + '_Cart')
+                            .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
                             .remove()
                         }
                     }
@@ -473,7 +473,7 @@ function cartFunctionalities (addItem, trimedEmailID, addToCartBtn){
             // Update in Firebase DB
             firebase
             .database()
-            .ref('Users_Carts/' + trimedEmailID + '_Cart')
+            .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
             .update({ Details: addItem })
         }
     })
@@ -484,7 +484,7 @@ function clearUserCart(addItem, addToCartBtn, trimedEmailID){
     cartItemsContainer.innerHTML = '';
     cartValues.forEach(values => { values.innerHTML = '0';})
     cartTotal.innerHTML = '0';
-    if ( window.location != 'user-orders.html'){
+    if ( window.location != 'store-user-orders.html'){
         // Enable removed items btn
         addItem.forEach(item=>{
             addToCartBtn[item.FoodID-1].disabled = false;
@@ -498,7 +498,7 @@ function clearUserCart(addItem, addToCartBtn, trimedEmailID){
     // Update in Firebase DB
     firebase
     .database()
-    .ref('Users_Carts/' + trimedEmailID + '_Cart')
+    .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
     .remove()
 }
 
@@ -526,14 +526,14 @@ function userOrderManagement (trimedEmailID , userCart, userEmailID){
 
     // Add Current Order To User Orders list 
     firebase.database()
-    .ref('Users_Order/' + trimedEmailID + '_Orders')
+    .ref('Store_Users_Order/' + trimedEmailID + '_Orders')
     .push(current_order);
 }
 
 // Main.js When Content Loaded
 document.addEventListener('DOMContentLoaded', () =>{
     // Client UI
-    displayMenuItems(newMenu);
+    displayMenuItems(newStore);
     showUserCart(addItem)
     const addToCartBtn = document.querySelectorAll('#add-to-cart-btn');
     // Menu Filtering items
@@ -552,7 +552,7 @@ function ClientDataFlow(addToCartBtn){
 
             // Get Cart Items already stored
             firebase.database()
-            .ref('Users_Carts/' + trimedEmailID + '_Cart')
+            .ref('Store_Users_Carts/' + trimedEmailID + '_Cart')
             .on('value', function(snapshot){
                 if (snapshot.exists()){
                     var userCart = snapshot.val().Details;
@@ -562,7 +562,7 @@ function ClientDataFlow(addToCartBtn){
                         // Store previouly added items to array -
                         addItem.push(userCart[i])
                         // Disable already added items
-                        if (window.location != 'user-orders.html'){
+                        if (window.location != 'store-user-orders.html'){
                             addToCartBtn[userCart[i].FoodID-1].disabled = true;
                             addToCartBtn[userCart[i].FoodID-1].innerHTML = 'In Cart';
                         }
@@ -606,7 +606,7 @@ function ClientDataFlow(addToCartBtn){
                         title: 'Order Successfully Recorded',
                     });
                     window.setTimeout(function(){
-                        window.location.replace('user-orders.html')
+                        window.location.replace('store-user-orders.html')
                     }, 2600)
                 } else {
                     Swal.fire({
@@ -617,7 +617,7 @@ function ClientDataFlow(addToCartBtn){
             })
 
             // Shows Orders
-            if (window.location.href === 'user-orders.html'){
+            if (window.location.href === 'store-user-orders.html'){
                 setOrderDetails(trimedEmailID)
             }
         } else {
