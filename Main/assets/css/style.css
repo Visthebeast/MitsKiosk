@@ -1108,6 +1108,12 @@ tr {
   border: none;
   padding: 5px 10px;
   margin-top: 5px;
+  border-radius: 20px;
+}
+.removeButton:hover {
+  /* Define the styles for when the button is being hovered */
+  background-color: #c90b0b;
+  cursor: pointer;
 }
 
 .userDetailsContainer {
