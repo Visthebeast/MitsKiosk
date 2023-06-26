@@ -102,7 +102,7 @@ const firebaseConfig = {
         const user = firebase.auth().currentUser;
         const adminUID = 'Cw5xmVcikkWdkOJuf8tyPWSWU1W2';
         if (user && user.uid === adminUID) {
-          window.location.replace('http://127.0.0.1:5502/admin-side.html');
+          window.location.replace('admin-side.html');
         } else {
           window.location.replace('client-side.html');
         }
