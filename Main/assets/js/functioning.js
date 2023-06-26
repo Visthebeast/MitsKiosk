@@ -96,6 +96,7 @@ const firebaseConfig = {
     //     })
     //     .catch((error) => Swal.fire("" + error));
     // }
+    
     static authRedirecting() {
       window.setTimeout(() => {
         const user = firebase.auth().currentUser;

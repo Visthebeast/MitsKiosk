@@ -131,8 +131,8 @@ function deleteOrder(userEmail, userOrders, orderKey,orderDetails) {
         .then(() => {
             console.log('Order deleted successfully');
             orderDetails.innerHTML = '';
-            location.reload();
-            displayOrderDetails(userEmail, userOrders, orderDetails);
+            //location.reload();
+            OrderDetails(userEmail, userOrders, orderDetails);
         })
         .catch((error) => {
             console.log('Error deleting order:', error);
