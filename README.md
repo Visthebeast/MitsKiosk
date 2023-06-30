@@ -4,7 +4,7 @@ This is a website we built for our college cafe and store using which we could o
 
 # ScreenShots
 
-Home Page
+# Home Page
 
 ![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/f7e27aca-c843-4d5c-9215-899d2ec63f71)
 
@@ -12,7 +12,8 @@ Home Page
 
 ![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/416ea85b-c3b8-4712-a821-e93fd501f632)
 
-Client Side
+
+# Client Side
 
 ![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/7d725dfe-7608-4705-b386-8c9e25c80964)
 
@@ -29,7 +30,7 @@ Client Side
 ![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/db304aaf-79dc-4c9d-a030-b30f35c23a2c)
 
 
-Admin Side
+# Admin Side
 
 ![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/1a15c41c-3987-4872-8d31-611085b0910b)
 
