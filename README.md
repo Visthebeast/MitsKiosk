@@ -6,34 +6,35 @@ This is a website we built for our college cafe and store using which we could o
 
 # Home Page
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/f7e27aca-c843-4d5c-9215-899d2ec63f71)
+![scr1](https://github.com/Visthebeast/MitsKiosk/assets/75669541/ba894fe8-2a39-4c53-b526-8c7a38858e90)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/b4afdbcf-2450-4a39-9da8-0fe581f6e7a8)
+![scr2](https://github.com/Visthebeast/MitsKiosk/assets/75669541/0c852b1d-dfd2-48ea-b15f-c235dbc168f1)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/416ea85b-c3b8-4712-a821-e93fd501f632)
+![scr3](https://github.com/Visthebeast/MitsKiosk/assets/75669541/44c3866d-fe5a-4d96-9e8f-0fdc3dd07ba7)
 
 
 # Client Side
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/7d725dfe-7608-4705-b386-8c9e25c80964)
+![scr4](https://github.com/Visthebeast/MitsKiosk/assets/75669541/bb61d680-0888-4961-8c84-db3ecd95a0b9)
+ 
+![scr5](https://github.com/Visthebeast/MitsKiosk/assets/75669541/7be167a8-a8d7-46cb-bdd2-8ccdf862b3da)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/e4c5bb49-dcee-444c-a8e8-3f13d6462076)
+![scr6](https://github.com/Visthebeast/MitsKiosk/assets/75669541/43c196ad-e5bc-4f2f-b33c-9d153d48464a)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/96ea1b13-8127-4f14-80e1-f5bccda0e836)
+![scr7](https://github.com/Visthebeast/MitsKiosk/assets/75669541/8c78f09f-2fb2-4db8-9266-979b2f20b783)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/f1940237-74a0-4292-a0df-6a91ee086227)
+![scr8](https://github.com/Visthebeast/MitsKiosk/assets/75669541/77126961-7d03-4a16-a3b3-b4127717d4c7)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/82978712-04e0-4233-addb-d5c81a18b03c)
+![scr9](https://github.com/Visthebeast/MitsKiosk/assets/75669541/062d44c7-94d7-4e54-ab5a-b92d3eac19e2)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/32c0c4bc-d0c6-4f78-9217-4d5299bcefab)
-
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/db304aaf-79dc-4c9d-a030-b30f35c23a2c)
-
+![scr10](https://github.com/Visthebeast/MitsKiosk/assets/75669541/1f85c8fd-6201-497b-855d-28b04b55d018)
+ 
 
 # Admin Side
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/1a15c41c-3987-4872-8d31-611085b0910b)
+![scr11](https://github.com/Visthebeast/MitsKiosk/assets/75669541/52e2882b-2988-404e-be20-b9f7246d998a)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/fa556c22-5d87-4e70-bf99-3afa94915780)
+![scr12](https://github.com/Visthebeast/MitsKiosk/assets/75669541/70c4fe78-c9fd-4b7a-bbd8-1d6a6513aa6c)
 
-![image](https://github.com/Visthebeast/MitsKiosk/assets/75669541/f782051a-e11a-4c1e-a03c-ef8ab57a1b17)
+![scr13](https://github.com/Visthebeast/MitsKiosk/assets/75669541/28769cb0-f0e8-41be-a79e-d2e9ad135a50)
+
